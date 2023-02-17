@@ -1,0 +1,17 @@
+# ninja log v5
+0	133	6983399384601659	build.ninja	20205b71c6a5c174
+6	320	6983367178682905	CMakeFiles/Queue.dir/Queue/linkQueue.cpp.obj	4f3a5262db6684c3
+0	373	6983366953464944	CMakeFiles/Linear_table.dir/Linear_table/SqList.cpp.obj	13a6092b83dc6334
+0	69	6983367080527758	CMakeFiles/LinkList.dir/LinkList/linkList.cpp.obj	89f16ee7b1c6d486
+3	321	6983367178682905	CMakeFiles/Queue.dir/Queue/ArrayQueue.cpp.obj	6fb8a7b16931aa23
+296	393	6983366679939341	BinaryTree.exe	5ab26ab477b8eb6
+3	335	6983366953082784	CMakeFiles/Linear_table.dir/Linear_table/main.cpp.obj	f74a5dc76884c083
+373	458	6983366954293256	Linear_table.exe	d98a0341b57591ff
+4	294	6983367082789844	CMakeFiles/LinkList.dir/LinkList/main.cpp.obj	2ee7c6d09b837295
+294	374	6983367083563461	LinkList.exe	804aa8b405fdd0fc
+0	320	6983367178677946	CMakeFiles/Queue.dir/Queue/main.cpp.obj	4ee4cadb3285898a
+321	407	6983367179531398	Queue.exe	2292fcfab66b6247
+332	413	6983367265940200	Stack.exe	807b066502169f4c
+0	63	6983367344827455	CMakeFiles/ThreadedTree.dir/ThreadedTree/threadedTree.cpp.obj	7965d24b1ff707a2
+3	295	6983367347143791	CMakeFiles/ThreadedTree.dir/ThreadedTree/main.cpp.obj	7dab225cab4e5d96
+295	376	6983367347937701	ThreadedTree.exe	8def8bb6200c6779
