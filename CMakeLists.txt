@@ -18,3 +18,5 @@ add_executable(Stack Stack/arrayStack.cpp Stack/linkStack.cpp Stack/main.cpp)
 add_executable(ThreadedTree ThreadedTree/threadedTree.cpp ThreadedTree/main.cpp)
 
 add_executable(BinaryTree BinaryTree/BinaryTree.cpp BinaryTree/main.cpp)
+
+add_executable(BinarySearchTree BinarySearchTree/BSTree.cpp BinarySearchTree/BSTree.h BinarySearchTree/main.cpp)

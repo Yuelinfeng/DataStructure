@@ -4,5 +4,6 @@ C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/Queue.dir
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/Stack.dir
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/ThreadedTree.dir
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/BinaryTree.dir
+C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/BinarySearchTree.dir
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
