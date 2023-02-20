@@ -36,4 +36,9 @@ void floorOrderBTreeRecur(BinaryTree *tree);
 void preOrderBTreeRecur(TreeNode *node);
 void midOrderBTreeRecur(TreeNode *node);
 void lastOrderBTreeRecur(TreeNode *node);
+
+// 非递归遍历
+void preOrderBTreeNoRecur(BinaryTree *tree);
+void midOrderBTreeNoRecur(BinaryTree *tree);
+void lastOrderBTreeNoRecur(BinaryTree *tree);
 #endif //DATASTRUCTURE_BINARYTREE_H

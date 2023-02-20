@@ -30,11 +30,17 @@ int main()
     cout << "先序遍历：";
     preOrderBTreeRecur(tree->root);
     cout << endl;
+    preOrderBTreeNoRecur(tree);
+    cout << endl;
     cout << "中序遍历：";
     midOrderBTreeRecur(tree->root);
     cout << endl;
+    midOrderBTreeNoRecur(tree);
+    cout << endl;
     cout << "后序遍历：";
     lastOrderBTreeRecur(tree->root);
+    cout << endl;
+    lastOrderBTreeNoRecur(tree);
     cout << endl;
     cout << "释放二叉树（后序）：";
     releaseBinaryTree(tree);
