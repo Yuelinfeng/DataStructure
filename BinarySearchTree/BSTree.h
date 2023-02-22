@@ -39,6 +39,7 @@ void releaseBSTree(BSTree *tree);
 int insertBSTreeNode(BSTree *tree, Element data);
 // 在二分搜索树中，查找值为e的节点
 BSNode *searchBSTreeNode(BSTree *tree, Element e);
-
+// 在BSTree中删除某个节点
+void deleteBSTreeNodeNoRecur(BSTree *tree, Element e);
 
 #endif //DATASTRUCTURE_BSTREE_H

@@ -14,12 +14,13 @@ int main() {
     insertBSTreeNode(tree,6);
     insertBSTreeNode(tree,4);
     insertBSTreeNode(tree,7);
-    Element e = 5;
+    Element e = 4;
     BSNode *node = searchBSTreeNode(tree,e);
     if (node) {
-        cout << node->data << endl;
+        cout << "找到了！" << endl;
     }else {
         ::printf("%d不存在......",e);
     }
+    deleteBSTreeNodeNoRecur(tree,4);
     releaseBSTree(tree);
 }
