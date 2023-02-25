@@ -35,11 +35,21 @@ typedef struct BSTree
 BSTree *createBSTree();
 // 释放BSTree及其节点
 void releaseBSTree(BSTree *tree);
+
 // 按照二分搜索树的规则插入数据（非递归方式）
 int insertBSTreeNode(BSTree *tree, Element data);
+// 按照二分搜索树的规则插入数据（递归方式）
+int insertBSTreeNodeRecur(BSTree *tree, Element e);
+
 // 在二分搜索树中，查找值为e的节点
 BSNode *searchBSTreeNode(BSTree *tree, Element e);
-// 在BSTree中删除某个节点
+
+// 计算树的高度
+int heightBSTreeRecur(BSTree *tree);
+
+// 在BSTree中删除某个节点(非递归方式）
 void deleteBSTreeNodeNoRecur(BSTree *tree, Element e);
+// 在BSTree中删除某个节点（递归方式）
+void deleteBSTreeNodeRecur(BSTree *tree, Element e);
 
 #endif //DATASTRUCTURE_BSTREE_H

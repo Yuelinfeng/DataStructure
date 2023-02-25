@@ -2,6 +2,7 @@
 // Created by 25328 on 2023/2/20.
 //
 #include <iostream>
+#include <algorithm>
 #include "BSTree.h"
 
 /*
@@ -191,6 +192,7 @@ void deleteBSTreeNodeNoRecur(BSTree *tree, Element e)
     }
     else{   // 度为2的节点,从cur节点中找后继，则找后继中最小值
         deleteNode(cur);
+        tree->count--;
         return;
     }
     // 判断被删除的点是左孩子还是右孩子，然后将要保留的子树接上去
@@ -203,3 +205,88 @@ void deleteBSTreeNodeNoRecur(BSTree *tree, Element e)
     delete cur;
     tree->count--;
 }
+
+static BSNode *insertBSNode(BSTree *tree, BSNode *node, Element e)
+{
+    // 归
+    if (!node)
+    {
+        tree->count++;
+        return createBSNode(e);
+    }
+    // 递
+    if (e < node->data)
+        node->left = insertBSNode(tree, node->left, e);
+    else if (e > node->data)
+        node->right = insertBSNode(tree, node->right, e);
+    return node;
+}
+int insertBSTreeNodeRecur(BSTree *tree, Element e) {
+    if (tree)
+    {
+        tree->root = insertBSNode(tree, tree->root, e);
+        return 0;
+    }
+    return -1;
+}
+
+// 树的高度 ： max(左子树的高度，右子树的高度) + 1
+static int heightBSNode(BSNode *node)
+{
+    if (!node)
+        return 0;
+    int leftHeight = heightBSNode(node->left);
+    int rightHeight = heightBSNode(node->right);
+    if (leftHeight > rightHeight)
+        return ++leftHeight;
+    else
+        return ++rightHeight;
+}
+int heightBSTreeRecur(BSTree *tree) {
+    return heightBSNode(tree->root);
+}
+
+static BSNode *searchMiniNode(BSNode *node)
+{
+    while (node && node->left)
+        node = node->left;
+    return node;
+}
+static BSNode *deleteBSNodeRecur(BSTree *tree, BSNode *node, Element e)
+{
+    if (!node)
+        return nullptr;
+    if (e < node->data)
+        node->left = deleteBSNodeRecur(tree, node->left, e);
+    else if (e > node->data)
+        node->right = deleteBSNodeRecur(tree, node->right, e);
+    else {  // 找到了node
+        BSNode *tmp;    // 要返回的剩余节点
+        if (node->left == nullptr)
+        {
+            tmp = node->right;
+            delete node;
+            tree->count--;
+            return tmp;
+        }
+        if (node->right == nullptr)
+        {
+            tmp = node->left;
+            delete node;
+            tree->count--;
+            return tmp;
+        }
+        // 度为2，删除度为二的节点，变成找到后继节点(右边最小值)
+        // 将后继节点的值拷贝给度为二的点，然后删除后继节点
+        tmp = searchMiniNode(node->right);
+        node->data = tmp->data;
+        node->right = deleteBSNodeRecur(tree,node->right,tmp->data);
+    }
+    return node;
+}
+void deleteBSTreeNodeRecur(BSTree *tree, Element e) {
+    if (tree) {
+        deleteBSNodeRecur(tree, tree->root, e);
+    }
+}
+

@@ -4,7 +4,8 @@
 #include "BSTree.h"
 #include <iostream>
 using namespace std;
-int main() {
+void test01()
+{
     BSTree *tree = createBSTree();
     insertBSTreeNode(tree,8);
     insertBSTreeNode(tree,3);
@@ -23,4 +24,23 @@ int main() {
     }
     deleteBSTreeNodeNoRecur(tree,4);
     releaseBSTree(tree);
+}
+
+void test02()
+{
+    BSTree *tree = createBSTree();
+    insertBSTreeNodeRecur(tree,8);
+    insertBSTreeNodeRecur(tree,3);
+    insertBSTreeNodeRecur(tree,10);
+    insertBSTreeNodeRecur(tree,14);
+    insertBSTreeNodeRecur(tree,13);
+    insertBSTreeNodeRecur(tree,6);
+    insertBSTreeNodeRecur(tree,4);
+    insertBSTreeNodeRecur(tree,7);
+    cout << heightBSTreeRecur(tree) << endl;
+    deleteBSTreeNodeRecur(tree, 3);
+    releaseBSTree(tree);
+}
+int main() {
+    test02();
 }
