@@ -325,6 +325,39 @@ build BinarySearchTree.exe: CXX_EXECUTABLE_LINKER__BinarySearchTree_Debug CMakeF
   TARGET_IMPLIB = libBinarySearchTree.dll.a
   TARGET_PDB = BinarySearchTree.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target AVLTree
+
+
+#############################################
+# Order-only phony target for AVLTree
+
+build cmake_object_order_depends_target_AVLTree: phony || CMakeFiles/AVLTree.dir
+
+build CMakeFiles/AVLTree.dir/AVLTree/avlTree.cpp.obj: CXX_COMPILER__AVLTree_Debug C$:/Users/25328/Desktop/DataStructure/AVLTree/avlTree.cpp || cmake_object_order_depends_target_AVLTree
+  DEP_FILE = CMakeFiles\AVLTree.dir\AVLTree\avlTree.cpp.obj.d
+  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\AVLTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\AVLTree.dir\AVLTree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AVLTree
+
+
+#############################################
+# Link the executable AVLTree.exe
+
+build AVLTree.exe: CXX_EXECUTABLE_LINKER__AVLTree_Debug CMakeFiles/AVLTree.dir/AVLTree/avlTree.cpp.obj
+  FLAGS = -fexec-charset=GBK -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\AVLTree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = AVLTree.exe
+  TARGET_IMPLIB = libAVLTree.dll.a
+  TARGET_PDB = AVLTree.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -351,6 +384,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build AVLTree: phony AVLTree.exe
+
 build BinarySearchTree: phony BinarySearchTree.exe
 
 build BinaryTree: phony BinaryTree.exe
@@ -373,7 +408,7 @@ build ThreadedTree: phony ThreadedTree.exe
 #############################################
 # Folder: C:/Users/25328/Desktop/DataStructure/cmake-build-debug
 
-build all: phony Linear_table.exe LinkList.exe Queue.exe Stack.exe ThreadedTree.exe BinaryTree.exe BinarySearchTree.exe
+build all: phony Linear_table.exe LinkList.exe Queue.exe Stack.exe ThreadedTree.exe BinaryTree.exe BinarySearchTree.exe AVLTree.exe
 
 # =============================================================================
 # Built-in targets
