@@ -51,13 +51,13 @@ build cmake_object_order_depends_target_Linear_table: phony || CMakeFiles/Linear
 
 build CMakeFiles/Linear_table.dir/Linear_table/main.cpp.obj: CXX_COMPILER__Linear_table_Debug C$:/Users/25328/Desktop/DataStructure/Linear_table/main.cpp || cmake_object_order_depends_target_Linear_table
   DEP_FILE = CMakeFiles\Linear_table.dir\Linear_table\main.cpp.obj.d
-  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu++1z
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Linear_table.dir
   OBJECT_FILE_DIR = CMakeFiles\Linear_table.dir\Linear_table
 
 build CMakeFiles/Linear_table.dir/Linear_table/SqList.cpp.obj: CXX_COMPILER__Linear_table_Debug C$:/Users/25328/Desktop/DataStructure/Linear_table/SqList.cpp || cmake_object_order_depends_target_Linear_table
   DEP_FILE = CMakeFiles\Linear_table.dir\Linear_table\SqList.cpp.obj.d
-  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu++1z
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Linear_table.dir
   OBJECT_FILE_DIR = CMakeFiles\Linear_table.dir\Linear_table
 
@@ -70,7 +70,7 @@ build CMakeFiles/Linear_table.dir/Linear_table/SqList.cpp.obj: CXX_COMPILER__Lin
 # Link the executable Linear_table.exe
 
 build Linear_table.exe: CXX_EXECUTABLE_LINKER__Linear_table_Debug CMakeFiles/Linear_table.dir/Linear_table/main.cpp.obj CMakeFiles/Linear_table.dir/Linear_table/SqList.cpp.obj
-  FLAGS = -fexec-charset=GBK -g
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Linear_table.dir
   POST_BUILD = cd .
@@ -90,13 +90,13 @@ build cmake_object_order_depends_target_LinkList: phony || CMakeFiles/LinkList.d
 
 build CMakeFiles/LinkList.dir/LinkList/linkList.cpp.obj: CXX_COMPILER__LinkList_Debug C$:/Users/25328/Desktop/DataStructure/LinkList/linkList.cpp || cmake_object_order_depends_target_LinkList
   DEP_FILE = CMakeFiles\LinkList.dir\LinkList\linkList.cpp.obj.d
-  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu++1z
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\LinkList.dir
   OBJECT_FILE_DIR = CMakeFiles\LinkList.dir\LinkList
 
 build CMakeFiles/LinkList.dir/LinkList/main.cpp.obj: CXX_COMPILER__LinkList_Debug C$:/Users/25328/Desktop/DataStructure/LinkList/main.cpp || cmake_object_order_depends_target_LinkList
   DEP_FILE = CMakeFiles\LinkList.dir\LinkList\main.cpp.obj.d
-  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu++1z
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\LinkList.dir
   OBJECT_FILE_DIR = CMakeFiles\LinkList.dir\LinkList
 
@@ -109,7 +109,7 @@ build CMakeFiles/LinkList.dir/LinkList/main.cpp.obj: CXX_COMPILER__LinkList_Debu
 # Link the executable LinkList.exe
 
 build LinkList.exe: CXX_EXECUTABLE_LINKER__LinkList_Debug CMakeFiles/LinkList.dir/LinkList/linkList.cpp.obj CMakeFiles/LinkList.dir/LinkList/main.cpp.obj
-  FLAGS = -fexec-charset=GBK -g
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\LinkList.dir
   POST_BUILD = cd .
@@ -129,19 +129,19 @@ build cmake_object_order_depends_target_Queue: phony || CMakeFiles/Queue.dir
 
 build CMakeFiles/Queue.dir/Queue/ArrayQueue.cpp.obj: CXX_COMPILER__Queue_Debug C$:/Users/25328/Desktop/DataStructure/Queue/ArrayQueue.cpp || cmake_object_order_depends_target_Queue
   DEP_FILE = CMakeFiles\Queue.dir\Queue\ArrayQueue.cpp.obj.d
-  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu++1z
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Queue.dir
   OBJECT_FILE_DIR = CMakeFiles\Queue.dir\Queue
 
 build CMakeFiles/Queue.dir/Queue/linkQueue.cpp.obj: CXX_COMPILER__Queue_Debug C$:/Users/25328/Desktop/DataStructure/Queue/linkQueue.cpp || cmake_object_order_depends_target_Queue
   DEP_FILE = CMakeFiles\Queue.dir\Queue\linkQueue.cpp.obj.d
-  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu++1z
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Queue.dir
   OBJECT_FILE_DIR = CMakeFiles\Queue.dir\Queue
 
 build CMakeFiles/Queue.dir/Queue/main.cpp.obj: CXX_COMPILER__Queue_Debug C$:/Users/25328/Desktop/DataStructure/Queue/main.cpp || cmake_object_order_depends_target_Queue
   DEP_FILE = CMakeFiles\Queue.dir\Queue\main.cpp.obj.d
-  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu++1z
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Queue.dir
   OBJECT_FILE_DIR = CMakeFiles\Queue.dir\Queue
 
@@ -154,7 +154,7 @@ build CMakeFiles/Queue.dir/Queue/main.cpp.obj: CXX_COMPILER__Queue_Debug C$:/Use
 # Link the executable Queue.exe
 
 build Queue.exe: CXX_EXECUTABLE_LINKER__Queue_Debug CMakeFiles/Queue.dir/Queue/ArrayQueue.cpp.obj CMakeFiles/Queue.dir/Queue/linkQueue.cpp.obj CMakeFiles/Queue.dir/Queue/main.cpp.obj
-  FLAGS = -fexec-charset=GBK -g
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Queue.dir
   POST_BUILD = cd .
@@ -174,19 +174,19 @@ build cmake_object_order_depends_target_Stack: phony || CMakeFiles/Stack.dir
 
 build CMakeFiles/Stack.dir/stack/arrayStack.cpp.obj: CXX_COMPILER__Stack_Debug C$:/Users/25328/Desktop/DataStructure/stack/arrayStack.cpp || cmake_object_order_depends_target_Stack
   DEP_FILE = CMakeFiles\Stack.dir\stack\arrayStack.cpp.obj.d
-  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu++1z
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Stack.dir
   OBJECT_FILE_DIR = CMakeFiles\Stack.dir\stack
 
 build CMakeFiles/Stack.dir/stack/linkStack.cpp.obj: CXX_COMPILER__Stack_Debug C$:/Users/25328/Desktop/DataStructure/stack/linkStack.cpp || cmake_object_order_depends_target_Stack
   DEP_FILE = CMakeFiles\Stack.dir\stack\linkStack.cpp.obj.d
-  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu++1z
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Stack.dir
   OBJECT_FILE_DIR = CMakeFiles\Stack.dir\stack
 
 build CMakeFiles/Stack.dir/stack/main.cpp.obj: CXX_COMPILER__Stack_Debug C$:/Users/25328/Desktop/DataStructure/stack/main.cpp || cmake_object_order_depends_target_Stack
   DEP_FILE = CMakeFiles\Stack.dir\stack\main.cpp.obj.d
-  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu++1z
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Stack.dir
   OBJECT_FILE_DIR = CMakeFiles\Stack.dir\stack
 
@@ -199,7 +199,7 @@ build CMakeFiles/Stack.dir/stack/main.cpp.obj: CXX_COMPILER__Stack_Debug C$:/Use
 # Link the executable Stack.exe
 
 build Stack.exe: CXX_EXECUTABLE_LINKER__Stack_Debug CMakeFiles/Stack.dir/stack/arrayStack.cpp.obj CMakeFiles/Stack.dir/stack/linkStack.cpp.obj CMakeFiles/Stack.dir/stack/main.cpp.obj
-  FLAGS = -fexec-charset=GBK -g
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Stack.dir
   POST_BUILD = cd .
@@ -219,13 +219,13 @@ build cmake_object_order_depends_target_ThreadedTree: phony || CMakeFiles/Thread
 
 build CMakeFiles/ThreadedTree.dir/ThreadedTree/threadedTree.cpp.obj: CXX_COMPILER__ThreadedTree_Debug C$:/Users/25328/Desktop/DataStructure/ThreadedTree/threadedTree.cpp || cmake_object_order_depends_target_ThreadedTree
   DEP_FILE = CMakeFiles\ThreadedTree.dir\ThreadedTree\threadedTree.cpp.obj.d
-  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu++1z
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ThreadedTree.dir
   OBJECT_FILE_DIR = CMakeFiles\ThreadedTree.dir\ThreadedTree
 
 build CMakeFiles/ThreadedTree.dir/ThreadedTree/main.cpp.obj: CXX_COMPILER__ThreadedTree_Debug C$:/Users/25328/Desktop/DataStructure/ThreadedTree/main.cpp || cmake_object_order_depends_target_ThreadedTree
   DEP_FILE = CMakeFiles\ThreadedTree.dir\ThreadedTree\main.cpp.obj.d
-  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu++1z
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ThreadedTree.dir
   OBJECT_FILE_DIR = CMakeFiles\ThreadedTree.dir\ThreadedTree
 
@@ -238,7 +238,7 @@ build CMakeFiles/ThreadedTree.dir/ThreadedTree/main.cpp.obj: CXX_COMPILER__Threa
 # Link the executable ThreadedTree.exe
 
 build ThreadedTree.exe: CXX_EXECUTABLE_LINKER__ThreadedTree_Debug CMakeFiles/ThreadedTree.dir/ThreadedTree/threadedTree.cpp.obj CMakeFiles/ThreadedTree.dir/ThreadedTree/main.cpp.obj
-  FLAGS = -fexec-charset=GBK -g
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ThreadedTree.dir
   POST_BUILD = cd .
@@ -258,13 +258,13 @@ build cmake_object_order_depends_target_BinaryTree: phony || CMakeFiles/BinaryTr
 
 build CMakeFiles/BinaryTree.dir/binaryTree/BinaryTree.cpp.obj: CXX_COMPILER__BinaryTree_Debug C$:/Users/25328/Desktop/DataStructure/binaryTree/BinaryTree.cpp || cmake_object_order_depends_target_BinaryTree
   DEP_FILE = CMakeFiles\BinaryTree.dir\binaryTree\BinaryTree.cpp.obj.d
-  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu++1z
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\BinaryTree.dir
   OBJECT_FILE_DIR = CMakeFiles\BinaryTree.dir\binaryTree
 
 build CMakeFiles/BinaryTree.dir/binaryTree/main.cpp.obj: CXX_COMPILER__BinaryTree_Debug C$:/Users/25328/Desktop/DataStructure/binaryTree/main.cpp || cmake_object_order_depends_target_BinaryTree
   DEP_FILE = CMakeFiles\BinaryTree.dir\binaryTree\main.cpp.obj.d
-  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu++1z
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\BinaryTree.dir
   OBJECT_FILE_DIR = CMakeFiles\BinaryTree.dir\binaryTree
 
@@ -277,7 +277,7 @@ build CMakeFiles/BinaryTree.dir/binaryTree/main.cpp.obj: CXX_COMPILER__BinaryTre
 # Link the executable BinaryTree.exe
 
 build BinaryTree.exe: CXX_EXECUTABLE_LINKER__BinaryTree_Debug CMakeFiles/BinaryTree.dir/binaryTree/BinaryTree.cpp.obj CMakeFiles/BinaryTree.dir/binaryTree/main.cpp.obj
-  FLAGS = -fexec-charset=GBK -g
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BinaryTree.dir
   POST_BUILD = cd .
@@ -297,13 +297,13 @@ build cmake_object_order_depends_target_BinarySearchTree: phony || CMakeFiles/Bi
 
 build CMakeFiles/BinarySearchTree.dir/BinarySearchTree/BSTree.cpp.obj: CXX_COMPILER__BinarySearchTree_Debug C$:/Users/25328/Desktop/DataStructure/BinarySearchTree/BSTree.cpp || cmake_object_order_depends_target_BinarySearchTree
   DEP_FILE = CMakeFiles\BinarySearchTree.dir\BinarySearchTree\BSTree.cpp.obj.d
-  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu++1z
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\BinarySearchTree.dir
   OBJECT_FILE_DIR = CMakeFiles\BinarySearchTree.dir\BinarySearchTree
 
 build CMakeFiles/BinarySearchTree.dir/BinarySearchTree/main.cpp.obj: CXX_COMPILER__BinarySearchTree_Debug C$:/Users/25328/Desktop/DataStructure/BinarySearchTree/main.cpp || cmake_object_order_depends_target_BinarySearchTree
   DEP_FILE = CMakeFiles\BinarySearchTree.dir\BinarySearchTree\main.cpp.obj.d
-  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu++1z
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\BinarySearchTree.dir
   OBJECT_FILE_DIR = CMakeFiles\BinarySearchTree.dir\BinarySearchTree
 
@@ -316,7 +316,7 @@ build CMakeFiles/BinarySearchTree.dir/BinarySearchTree/main.cpp.obj: CXX_COMPILE
 # Link the executable BinarySearchTree.exe
 
 build BinarySearchTree.exe: CXX_EXECUTABLE_LINKER__BinarySearchTree_Debug CMakeFiles/BinarySearchTree.dir/BinarySearchTree/BSTree.cpp.obj CMakeFiles/BinarySearchTree.dir/BinarySearchTree/main.cpp.obj
-  FLAGS = -fexec-charset=GBK -g
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BinarySearchTree.dir
   POST_BUILD = cd .
@@ -336,7 +336,13 @@ build cmake_object_order_depends_target_AVLTree: phony || CMakeFiles/AVLTree.dir
 
 build CMakeFiles/AVLTree.dir/AVLTree/avlTree.cpp.obj: CXX_COMPILER__AVLTree_Debug C$:/Users/25328/Desktop/DataStructure/AVLTree/avlTree.cpp || cmake_object_order_depends_target_AVLTree
   DEP_FILE = CMakeFiles\AVLTree.dir\AVLTree\avlTree.cpp.obj.d
-  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu++1z
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AVLTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\AVLTree.dir\AVLTree
+
+build CMakeFiles/AVLTree.dir/AVLTree/main.cpp.obj: CXX_COMPILER__AVLTree_Debug C$:/Users/25328/Desktop/DataStructure/AVLTree/main.cpp || cmake_object_order_depends_target_AVLTree
+  DEP_FILE = CMakeFiles\AVLTree.dir\AVLTree\main.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\AVLTree.dir
   OBJECT_FILE_DIR = CMakeFiles\AVLTree.dir\AVLTree
 
@@ -348,8 +354,8 @@ build CMakeFiles/AVLTree.dir/AVLTree/avlTree.cpp.obj: CXX_COMPILER__AVLTree_Debu
 #############################################
 # Link the executable AVLTree.exe
 
-build AVLTree.exe: CXX_EXECUTABLE_LINKER__AVLTree_Debug CMakeFiles/AVLTree.dir/AVLTree/avlTree.cpp.obj
-  FLAGS = -fexec-charset=GBK -g
+build AVLTree.exe: CXX_EXECUTABLE_LINKER__AVLTree_Debug CMakeFiles/AVLTree.dir/AVLTree/avlTree.cpp.obj CMakeFiles/AVLTree.dir/AVLTree/main.cpp.obj
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\AVLTree.dir
   POST_BUILD = cd .

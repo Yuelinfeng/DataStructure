@@ -99,6 +99,7 @@ BSNode *searchBSTreeNode(BSTree *tree, Element e) {
  *  3. 删除度为二的节点
  *      变换为删除度为零的节点(找 后继 或者 前驱）
  * */
+
 //void deleteBSTreeNode(BSTree *tree, Element e) {
 //    if (tree) {
 //        // 找到该节点
@@ -141,6 +142,7 @@ BSNode *searchBSTreeNode(BSTree *tree, Element e) {
 //        }
 //    }
 //}
+
 static void deleteNode(BSNode *node)
 {
     BSNode *mini = node->right;
@@ -243,7 +245,8 @@ static int heightBSNode(BSNode *node)
         return ++rightHeight;
 }
 int heightBSTreeRecur(BSTree *tree) {
-    return heightBSNode(tree->root);
+    if (tree)
+        return heightBSNode(tree->root);
 }
 
 static BSNode *searchMiniNode(BSNode *node)
