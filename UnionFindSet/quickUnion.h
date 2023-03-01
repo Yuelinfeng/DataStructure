@@ -15,6 +15,11 @@ typedef struct {
     int *size;  // 根节点位置存放集合的个数
 }QuickUnionSet;
 
+struct SetStack{
+    int index;      //保存路径上的节点索引
+    SetStack *next;  // 下一个
+};
+
 QuickUnionSet *createQuickUnionSet(int n);
 void releaseQuickUnionSet(QuickUnionSet *setQU);
 void initQuickUnionSet(QuickUnionSet *setQU, const int *data, int n);

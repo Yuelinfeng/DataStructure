@@ -28,10 +28,12 @@ void releaseQuickUnionSet(QuickUnionSet *setQU) {
 void initQuickUnionSet(QuickUnionSet *setQU, const int *data, int n) {
     if(setQU)
     {
-        for (int i = 0; i < setQU->n; ++i) {
+        for (int i = 0; i < n; ++i) {
             setQU->data[i] = data[i];
             setQU->parent[i] = i;
+            setQU->size[i] = 1;
         }
+
     }
 }
 
@@ -46,7 +48,8 @@ static int findIndex(QuickUnionSet *setQF, int a)
     return -1;
 }
 // 找e的父亲，再找这个父亲的父亲，直到发现父亲的父亲是自己，那就是根了
-static int findRootIndex(QuickUnionSet *setQU, int e)
+// 普通的查找根节点的方式
+/*static int findRootIndex(QuickUnionSet *setQU, int e)
 {
     if(setQU)
     {
@@ -60,6 +63,37 @@ static int findRootIndex(QuickUnionSet *setQU, int e)
         return curIndex;
     }
     return -1;
+}*/
+static SetStack *push(SetStack *stack, int index)
+{
+    SetStack *node = new SetStack;
+    node->index = index;
+    node->next = stack;
+    return node;
+}
+static SetStack *pop(SetStack *stack, int *index)
+{
+        SetStack *tmp = stack;
+        *index = stack->index;
+        stack = stack->next;
+        delete tmp;
+        return stack;
+}
+// 带路径压缩的查找算法，向上查找时，记录路径的信息，然后再恢复，将所有路径的元素的父节点都指向根节点
+static int findRootIndex(QuickUnionSet *setQU, int e) {
+    int curIndex = findIndex(setQU,e);  // 找到当前的父节点的索引
+    SetStack *path = nullptr;
+    while (setQU->parent[curIndex] != curIndex) // 找到最终的根节点
+    {
+        path = push(path,curIndex);
+        curIndex = setQU->parent[curIndex];
+    }
+    while (path != nullptr) {
+        int pos{};
+        path = pop(path,&pos);
+        setQU->parent[pos] = curIndex;  //此时curIndex就是根，将pos位置的父节点更换为根节点
+    }
+    return curIndex;
 }
 int isSameQU(QuickUnionSet *setQU, const int a, const int b) {
     // 先找到a和b的根节点

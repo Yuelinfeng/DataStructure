@@ -35,3 +35,12 @@
 236	325	6993414333220170	UnionFindSet.exe	be7b84ae64a06918
 2	60	6993415833365138	CMakeFiles/UnionFindSet.dir/UnionFindSet/quickUnion.cpp.obj	ff6400a3cfbc496e
 61	147	6993415834202895	UnionFindSet.exe	be7b84ae64a06918
+31	400	6993740789033381	CMakeFiles/UnionFindSet.dir/UnionFindSet/quickUnion.cpp.obj	ff6400a3cfbc496e
+3	401	6993740789043339	CMakeFiles/UnionFindSet.dir/UnionFindSet/main.cpp.obj	b0c150ac78dba49
+401	599	6993740790987513	UnionFindSet.exe	be7b84ae64a06918
+3	70	6993743021945049	CMakeFiles/UnionFindSet.dir/UnionFindSet/quickUnion.cpp.obj	ff6400a3cfbc496e
+70	183	6993743023044389	UnionFindSet.exe	be7b84ae64a06918
+2	69	6993744895377928	CMakeFiles/UnionFindSet.dir/UnionFindSet/quickUnion.cpp.obj	ff6400a3cfbc496e
+70	184	6993744896503262	UnionFindSet.exe	be7b84ae64a06918
+3	73	6993751061206441	CMakeFiles/UnionFindSet.dir/UnionFindSet/quickUnion.cpp.obj	ff6400a3cfbc496e
+73	185	6993751062284946	UnionFindSet.exe	be7b84ae64a06918
