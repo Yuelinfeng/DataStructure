@@ -364,6 +364,51 @@ build AVLTree.exe: CXX_EXECUTABLE_LINKER__AVLTree_Debug CMakeFiles/AVLTree.dir/A
   TARGET_IMPLIB = libAVLTree.dll.a
   TARGET_PDB = AVLTree.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target UnionFindSet
+
+
+#############################################
+# Order-only phony target for UnionFindSet
+
+build cmake_object_order_depends_target_UnionFindSet: phony || CMakeFiles/UnionFindSet.dir
+
+build CMakeFiles/UnionFindSet.dir/UnionFindSet/quickFindSet.cpp.obj: CXX_COMPILER__UnionFindSet_Debug C$:/Users/25328/Desktop/DataStructure/UnionFindSet/quickFindSet.cpp || cmake_object_order_depends_target_UnionFindSet
+  DEP_FILE = CMakeFiles\UnionFindSet.dir\UnionFindSet\quickFindSet.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\UnionFindSet.dir
+  OBJECT_FILE_DIR = CMakeFiles\UnionFindSet.dir\UnionFindSet
+
+build CMakeFiles/UnionFindSet.dir/UnionFindSet/main.cpp.obj: CXX_COMPILER__UnionFindSet_Debug C$:/Users/25328/Desktop/DataStructure/UnionFindSet/main.cpp || cmake_object_order_depends_target_UnionFindSet
+  DEP_FILE = CMakeFiles\UnionFindSet.dir\UnionFindSet\main.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\UnionFindSet.dir
+  OBJECT_FILE_DIR = CMakeFiles\UnionFindSet.dir\UnionFindSet
+
+build CMakeFiles/UnionFindSet.dir/UnionFindSet/quickUnion.cpp.obj: CXX_COMPILER__UnionFindSet_Debug C$:/Users/25328/Desktop/DataStructure/UnionFindSet/quickUnion.cpp || cmake_object_order_depends_target_UnionFindSet
+  DEP_FILE = CMakeFiles\UnionFindSet.dir\UnionFindSet\quickUnion.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\UnionFindSet.dir
+  OBJECT_FILE_DIR = CMakeFiles\UnionFindSet.dir\UnionFindSet
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UnionFindSet
+
+
+#############################################
+# Link the executable UnionFindSet.exe
+
+build UnionFindSet.exe: CXX_EXECUTABLE_LINKER__UnionFindSet_Debug CMakeFiles/UnionFindSet.dir/UnionFindSet/quickFindSet.cpp.obj CMakeFiles/UnionFindSet.dir/UnionFindSet/main.cpp.obj CMakeFiles/UnionFindSet.dir/UnionFindSet/quickUnion.cpp.obj
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\UnionFindSet.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = UnionFindSet.exe
+  TARGET_IMPLIB = libUnionFindSet.dll.a
+  TARGET_PDB = UnionFindSet.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -406,6 +451,8 @@ build Stack: phony Stack.exe
 
 build ThreadedTree: phony ThreadedTree.exe
 
+build UnionFindSet: phony UnionFindSet.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -414,7 +461,7 @@ build ThreadedTree: phony ThreadedTree.exe
 #############################################
 # Folder: C:/Users/25328/Desktop/DataStructure/cmake-build-debug
 
-build all: phony Linear_table.exe LinkList.exe Queue.exe Stack.exe ThreadedTree.exe BinaryTree.exe BinarySearchTree.exe AVLTree.exe
+build all: phony Linear_table.exe LinkList.exe Queue.exe Stack.exe ThreadedTree.exe BinaryTree.exe BinarySearchTree.exe AVLTree.exe UnionFindSet.exe
 
 # =============================================================================
 # Built-in targets

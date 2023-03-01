@@ -6,5 +6,6 @@ C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/ThreadedTree.d
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/BinaryTree.dir
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/BinarySearchTree.dir
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/AVLTree.dir
+C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/UnionFindSet.dir
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/rebuild_cache.dir

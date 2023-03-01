@@ -106,7 +106,7 @@ static AVLNode *createAVLNode(Element e) {
 }
 static int sub(AVLNode *node)
 {
-    if(!node)
+    if(node == nullptr)
         return 0;
     return h(node->left) - h(node->right);
 }
@@ -143,10 +143,10 @@ static AVLNode *insertAVLNode(AVLTree *tree, AVLNode *node, Element e) {
     node->height = maxNum(h(node->left), h(node->right)) + 1;
     // 3. 判断平衡因子
     int balance = sub(node);
-    if(balance > 1) //失衡节点左边重
+    if(balance > 1) //失衡节点左边重  L
     {
         // 跟失衡节点的子节点判断下一步是L还是R
-        if(e < node->left->data) {      // LR
+        if(e > node->left->data) {      // LR
             // 把LR中 把R进行左旋，转换成 LL 状态
             node->left = leftRotate(node->left);
         }
@@ -178,7 +178,7 @@ void insertAVLTree(AVLTree *tree, Element e) {
  * 3. 判断平衡因子
  * */
 static AVLNode *deleteAVLNodeRecur(AVLTree *tree, AVLNode *node, Element e) {
-    if(!node)
+    if(node == nullptr)
         return nullptr;
     // 1. 找到删除节点
     AVLNode *tmp;
@@ -199,7 +199,6 @@ static AVLNode *deleteAVLNodeRecur(AVLTree *tree, AVLNode *node, Element e) {
             node->left = tmp->left;
             node->right = tmp->right;
             delete tmp;
-            tmp = nullptr;
             tree->count--;
             // 判断平衡
         }
