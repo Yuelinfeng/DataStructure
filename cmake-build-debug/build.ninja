@@ -41,373 +41,406 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/25328/Desktop/DataStructure/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Linear_table
+# Object build statements for EXECUTABLE target 1-1seqList
 
 
 #############################################
-# Order-only phony target for Linear_table
+# Order-only phony target for 1-1seqList
 
-build cmake_object_order_depends_target_Linear_table: phony || CMakeFiles/Linear_table.dir
+build cmake_object_order_depends_target_1-1seqList: phony || CMakeFiles/1-1seqList.dir
 
-build CMakeFiles/Linear_table.dir/Linear_table/main.cpp.obj: CXX_COMPILER__Linear_table_Debug C$:/Users/25328/Desktop/DataStructure/Linear_table/main.cpp || cmake_object_order_depends_target_Linear_table
-  DEP_FILE = CMakeFiles\Linear_table.dir\Linear_table\main.cpp.obj.d
+build CMakeFiles/1-1seqList.dir/01.linear/1.seqList/main.cpp.obj: CXX_COMPILER__1-1seqList_Debug C$:/Users/25328/Desktop/DataStructure/01.linear/1.seqList/main.cpp || cmake_object_order_depends_target_1-1seqList
+  DEP_FILE = CMakeFiles\1-1seqList.dir\01.linear\1.seqList\main.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Linear_table.dir
-  OBJECT_FILE_DIR = CMakeFiles\Linear_table.dir\Linear_table
+  OBJECT_DIR = CMakeFiles\1-1seqList.dir
+  OBJECT_FILE_DIR = CMakeFiles\1-1seqList.dir\01.linear\1.seqList
 
-build CMakeFiles/Linear_table.dir/Linear_table/SqList.cpp.obj: CXX_COMPILER__Linear_table_Debug C$:/Users/25328/Desktop/DataStructure/Linear_table/SqList.cpp || cmake_object_order_depends_target_Linear_table
-  DEP_FILE = CMakeFiles\Linear_table.dir\Linear_table\SqList.cpp.obj.d
+build CMakeFiles/1-1seqList.dir/01.linear/1.seqList/SqList.cpp.obj: CXX_COMPILER__1-1seqList_Debug C$:/Users/25328/Desktop/DataStructure/01.linear/1.seqList/SqList.cpp || cmake_object_order_depends_target_1-1seqList
+  DEP_FILE = CMakeFiles\1-1seqList.dir\01.linear\1.seqList\SqList.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Linear_table.dir
-  OBJECT_FILE_DIR = CMakeFiles\Linear_table.dir\Linear_table
+  OBJECT_DIR = CMakeFiles\1-1seqList.dir
+  OBJECT_FILE_DIR = CMakeFiles\1-1seqList.dir\01.linear\1.seqList
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Linear_table
+# Link build statements for EXECUTABLE target 1-1seqList
 
 
 #############################################
-# Link the executable Linear_table.exe
+# Link the executable 1-1seqList.exe
 
-build Linear_table.exe: CXX_EXECUTABLE_LINKER__Linear_table_Debug CMakeFiles/Linear_table.dir/Linear_table/main.cpp.obj CMakeFiles/Linear_table.dir/Linear_table/SqList.cpp.obj
+build 1-1seqList.exe: CXX_EXECUTABLE_LINKER__1-1seqList_Debug CMakeFiles/1-1seqList.dir/01.linear/1.seqList/main.cpp.obj CMakeFiles/1-1seqList.dir/01.linear/1.seqList/SqList.cpp.obj
   FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Linear_table.dir
+  OBJECT_DIR = CMakeFiles\1-1seqList.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Linear_table.exe
-  TARGET_IMPLIB = libLinear_table.dll.a
-  TARGET_PDB = Linear_table.exe.dbg
+  TARGET_FILE = 1-1seqList.exe
+  TARGET_IMPLIB = lib1-1seqList.dll.a
+  TARGET_PDB = 1-1seqList.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target LinkList
+# Object build statements for EXECUTABLE target 1-2linkList
 
 
 #############################################
-# Order-only phony target for LinkList
+# Order-only phony target for 1-2linkList
 
-build cmake_object_order_depends_target_LinkList: phony || CMakeFiles/LinkList.dir
+build cmake_object_order_depends_target_1-2linkList: phony || CMakeFiles/1-2linkList.dir
 
-build CMakeFiles/LinkList.dir/LinkList/linkList.cpp.obj: CXX_COMPILER__LinkList_Debug C$:/Users/25328/Desktop/DataStructure/LinkList/linkList.cpp || cmake_object_order_depends_target_LinkList
-  DEP_FILE = CMakeFiles\LinkList.dir\LinkList\linkList.cpp.obj.d
+build CMakeFiles/1-2linkList.dir/01.linear/2.LinkList/linkList.cpp.obj: CXX_COMPILER__1-2linkList_Debug C$:/Users/25328/Desktop/DataStructure/01.linear/2.LinkList/linkList.cpp || cmake_object_order_depends_target_1-2linkList
+  DEP_FILE = CMakeFiles\1-2linkList.dir\01.linear\2.LinkList\linkList.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\LinkList.dir
-  OBJECT_FILE_DIR = CMakeFiles\LinkList.dir\LinkList
+  OBJECT_DIR = CMakeFiles\1-2linkList.dir
+  OBJECT_FILE_DIR = CMakeFiles\1-2linkList.dir\01.linear\2.LinkList
 
-build CMakeFiles/LinkList.dir/LinkList/main.cpp.obj: CXX_COMPILER__LinkList_Debug C$:/Users/25328/Desktop/DataStructure/LinkList/main.cpp || cmake_object_order_depends_target_LinkList
-  DEP_FILE = CMakeFiles\LinkList.dir\LinkList\main.cpp.obj.d
+build CMakeFiles/1-2linkList.dir/01.linear/2.LinkList/main.cpp.obj: CXX_COMPILER__1-2linkList_Debug C$:/Users/25328/Desktop/DataStructure/01.linear/2.LinkList/main.cpp || cmake_object_order_depends_target_1-2linkList
+  DEP_FILE = CMakeFiles\1-2linkList.dir\01.linear\2.LinkList\main.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\LinkList.dir
-  OBJECT_FILE_DIR = CMakeFiles\LinkList.dir\LinkList
+  OBJECT_DIR = CMakeFiles\1-2linkList.dir
+  OBJECT_FILE_DIR = CMakeFiles\1-2linkList.dir\01.linear\2.LinkList
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target LinkList
+# Link build statements for EXECUTABLE target 1-2linkList
 
 
 #############################################
-# Link the executable LinkList.exe
+# Link the executable 1-2linkList.exe
 
-build LinkList.exe: CXX_EXECUTABLE_LINKER__LinkList_Debug CMakeFiles/LinkList.dir/LinkList/linkList.cpp.obj CMakeFiles/LinkList.dir/LinkList/main.cpp.obj
+build 1-2linkList.exe: CXX_EXECUTABLE_LINKER__1-2linkList_Debug CMakeFiles/1-2linkList.dir/01.linear/2.LinkList/linkList.cpp.obj CMakeFiles/1-2linkList.dir/01.linear/2.LinkList/main.cpp.obj
   FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\LinkList.dir
+  OBJECT_DIR = CMakeFiles\1-2linkList.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = LinkList.exe
-  TARGET_IMPLIB = libLinkList.dll.a
-  TARGET_PDB = LinkList.exe.dbg
+  TARGET_FILE = 1-2linkList.exe
+  TARGET_IMPLIB = lib1-2linkList.dll.a
+  TARGET_PDB = 1-2linkList.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Queue
+# Object build statements for EXECUTABLE target 1-3stack
 
 
 #############################################
-# Order-only phony target for Queue
+# Order-only phony target for 1-3stack
 
-build cmake_object_order_depends_target_Queue: phony || CMakeFiles/Queue.dir
+build cmake_object_order_depends_target_1-3stack: phony || CMakeFiles/1-3stack.dir
 
-build CMakeFiles/Queue.dir/Queue/ArrayQueue.cpp.obj: CXX_COMPILER__Queue_Debug C$:/Users/25328/Desktop/DataStructure/Queue/ArrayQueue.cpp || cmake_object_order_depends_target_Queue
-  DEP_FILE = CMakeFiles\Queue.dir\Queue\ArrayQueue.cpp.obj.d
+build CMakeFiles/1-3stack.dir/01.linear/3.stack/arrayStack.cpp.obj: CXX_COMPILER__1-3stack_Debug C$:/Users/25328/Desktop/DataStructure/01.linear/3.stack/arrayStack.cpp || cmake_object_order_depends_target_1-3stack
+  DEP_FILE = CMakeFiles\1-3stack.dir\01.linear\3.stack\arrayStack.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Queue.dir
-  OBJECT_FILE_DIR = CMakeFiles\Queue.dir\Queue
+  OBJECT_DIR = CMakeFiles\1-3stack.dir
+  OBJECT_FILE_DIR = CMakeFiles\1-3stack.dir\01.linear\3.stack
 
-build CMakeFiles/Queue.dir/Queue/linkQueue.cpp.obj: CXX_COMPILER__Queue_Debug C$:/Users/25328/Desktop/DataStructure/Queue/linkQueue.cpp || cmake_object_order_depends_target_Queue
-  DEP_FILE = CMakeFiles\Queue.dir\Queue\linkQueue.cpp.obj.d
+build CMakeFiles/1-3stack.dir/01.linear/3.stack/linkStack.cpp.obj: CXX_COMPILER__1-3stack_Debug C$:/Users/25328/Desktop/DataStructure/01.linear/3.stack/linkStack.cpp || cmake_object_order_depends_target_1-3stack
+  DEP_FILE = CMakeFiles\1-3stack.dir\01.linear\3.stack\linkStack.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Queue.dir
-  OBJECT_FILE_DIR = CMakeFiles\Queue.dir\Queue
+  OBJECT_DIR = CMakeFiles\1-3stack.dir
+  OBJECT_FILE_DIR = CMakeFiles\1-3stack.dir\01.linear\3.stack
 
-build CMakeFiles/Queue.dir/Queue/main.cpp.obj: CXX_COMPILER__Queue_Debug C$:/Users/25328/Desktop/DataStructure/Queue/main.cpp || cmake_object_order_depends_target_Queue
-  DEP_FILE = CMakeFiles\Queue.dir\Queue\main.cpp.obj.d
+build CMakeFiles/1-3stack.dir/01.linear/3.stack/main.cpp.obj: CXX_COMPILER__1-3stack_Debug C$:/Users/25328/Desktop/DataStructure/01.linear/3.stack/main.cpp || cmake_object_order_depends_target_1-3stack
+  DEP_FILE = CMakeFiles\1-3stack.dir\01.linear\3.stack\main.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Queue.dir
-  OBJECT_FILE_DIR = CMakeFiles\Queue.dir\Queue
+  OBJECT_DIR = CMakeFiles\1-3stack.dir
+  OBJECT_FILE_DIR = CMakeFiles\1-3stack.dir\01.linear\3.stack
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Queue
+# Link build statements for EXECUTABLE target 1-3stack
 
 
 #############################################
-# Link the executable Queue.exe
+# Link the executable 1-3stack.exe
 
-build Queue.exe: CXX_EXECUTABLE_LINKER__Queue_Debug CMakeFiles/Queue.dir/Queue/ArrayQueue.cpp.obj CMakeFiles/Queue.dir/Queue/linkQueue.cpp.obj CMakeFiles/Queue.dir/Queue/main.cpp.obj
+build 1-3stack.exe: CXX_EXECUTABLE_LINKER__1-3stack_Debug CMakeFiles/1-3stack.dir/01.linear/3.stack/arrayStack.cpp.obj CMakeFiles/1-3stack.dir/01.linear/3.stack/linkStack.cpp.obj CMakeFiles/1-3stack.dir/01.linear/3.stack/main.cpp.obj
   FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Queue.dir
+  OBJECT_DIR = CMakeFiles\1-3stack.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Queue.exe
-  TARGET_IMPLIB = libQueue.dll.a
-  TARGET_PDB = Queue.exe.dbg
+  TARGET_FILE = 1-3stack.exe
+  TARGET_IMPLIB = lib1-3stack.dll.a
+  TARGET_PDB = 1-3stack.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Stack
+# Object build statements for EXECUTABLE target 1-4queue
 
 
 #############################################
-# Order-only phony target for Stack
+# Order-only phony target for 1-4queue
 
-build cmake_object_order_depends_target_Stack: phony || CMakeFiles/Stack.dir
+build cmake_object_order_depends_target_1-4queue: phony || CMakeFiles/1-4queue.dir
 
-build CMakeFiles/Stack.dir/stack/arrayStack.cpp.obj: CXX_COMPILER__Stack_Debug C$:/Users/25328/Desktop/DataStructure/stack/arrayStack.cpp || cmake_object_order_depends_target_Stack
-  DEP_FILE = CMakeFiles\Stack.dir\stack\arrayStack.cpp.obj.d
+build CMakeFiles/1-4queue.dir/01.linear/4.queue/ArrayQueue.cpp.obj: CXX_COMPILER__1-4queue_Debug C$:/Users/25328/Desktop/DataStructure/01.linear/4.queue/ArrayQueue.cpp || cmake_object_order_depends_target_1-4queue
+  DEP_FILE = CMakeFiles\1-4queue.dir\01.linear\4.queue\ArrayQueue.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Stack.dir
-  OBJECT_FILE_DIR = CMakeFiles\Stack.dir\stack
+  OBJECT_DIR = CMakeFiles\1-4queue.dir
+  OBJECT_FILE_DIR = CMakeFiles\1-4queue.dir\01.linear\4.queue
 
-build CMakeFiles/Stack.dir/stack/linkStack.cpp.obj: CXX_COMPILER__Stack_Debug C$:/Users/25328/Desktop/DataStructure/stack/linkStack.cpp || cmake_object_order_depends_target_Stack
-  DEP_FILE = CMakeFiles\Stack.dir\stack\linkStack.cpp.obj.d
+build CMakeFiles/1-4queue.dir/01.linear/4.queue/linkQueue.cpp.obj: CXX_COMPILER__1-4queue_Debug C$:/Users/25328/Desktop/DataStructure/01.linear/4.queue/linkQueue.cpp || cmake_object_order_depends_target_1-4queue
+  DEP_FILE = CMakeFiles\1-4queue.dir\01.linear\4.queue\linkQueue.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Stack.dir
-  OBJECT_FILE_DIR = CMakeFiles\Stack.dir\stack
+  OBJECT_DIR = CMakeFiles\1-4queue.dir
+  OBJECT_FILE_DIR = CMakeFiles\1-4queue.dir\01.linear\4.queue
 
-build CMakeFiles/Stack.dir/stack/main.cpp.obj: CXX_COMPILER__Stack_Debug C$:/Users/25328/Desktop/DataStructure/stack/main.cpp || cmake_object_order_depends_target_Stack
-  DEP_FILE = CMakeFiles\Stack.dir\stack\main.cpp.obj.d
+build CMakeFiles/1-4queue.dir/01.linear/4.queue/main.cpp.obj: CXX_COMPILER__1-4queue_Debug C$:/Users/25328/Desktop/DataStructure/01.linear/4.queue/main.cpp || cmake_object_order_depends_target_1-4queue
+  DEP_FILE = CMakeFiles\1-4queue.dir\01.linear\4.queue\main.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Stack.dir
-  OBJECT_FILE_DIR = CMakeFiles\Stack.dir\stack
+  OBJECT_DIR = CMakeFiles\1-4queue.dir
+  OBJECT_FILE_DIR = CMakeFiles\1-4queue.dir\01.linear\4.queue
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Stack
+# Link build statements for EXECUTABLE target 1-4queue
 
 
 #############################################
-# Link the executable Stack.exe
+# Link the executable 1-4queue.exe
 
-build Stack.exe: CXX_EXECUTABLE_LINKER__Stack_Debug CMakeFiles/Stack.dir/stack/arrayStack.cpp.obj CMakeFiles/Stack.dir/stack/linkStack.cpp.obj CMakeFiles/Stack.dir/stack/main.cpp.obj
+build 1-4queue.exe: CXX_EXECUTABLE_LINKER__1-4queue_Debug CMakeFiles/1-4queue.dir/01.linear/4.queue/ArrayQueue.cpp.obj CMakeFiles/1-4queue.dir/01.linear/4.queue/linkQueue.cpp.obj CMakeFiles/1-4queue.dir/01.linear/4.queue/main.cpp.obj
   FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Stack.dir
+  OBJECT_DIR = CMakeFiles\1-4queue.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Stack.exe
-  TARGET_IMPLIB = libStack.dll.a
-  TARGET_PDB = Stack.exe.dbg
+  TARGET_FILE = 1-4queue.exe
+  TARGET_IMPLIB = lib1-4queue.dll.a
+  TARGET_PDB = 1-4queue.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target ThreadedTree
+# Object build statements for EXECUTABLE target 2-1binaryTree
 
 
 #############################################
-# Order-only phony target for ThreadedTree
+# Order-only phony target for 2-1binaryTree
 
-build cmake_object_order_depends_target_ThreadedTree: phony || CMakeFiles/ThreadedTree.dir
+build cmake_object_order_depends_target_2-1binaryTree: phony || CMakeFiles/2-1binaryTree.dir
 
-build CMakeFiles/ThreadedTree.dir/ThreadedTree/threadedTree.cpp.obj: CXX_COMPILER__ThreadedTree_Debug C$:/Users/25328/Desktop/DataStructure/ThreadedTree/threadedTree.cpp || cmake_object_order_depends_target_ThreadedTree
-  DEP_FILE = CMakeFiles\ThreadedTree.dir\ThreadedTree\threadedTree.cpp.obj.d
+build CMakeFiles/2-1binaryTree.dir/02.TreeStruct/1.binaryTree/BinaryTree.cpp.obj: CXX_COMPILER__2-1binaryTree_Debug C$:/Users/25328/Desktop/DataStructure/02.TreeStruct/1.binaryTree/BinaryTree.cpp || cmake_object_order_depends_target_2-1binaryTree
+  DEP_FILE = CMakeFiles\2-1binaryTree.dir\02.TreeStruct\1.binaryTree\BinaryTree.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ThreadedTree.dir
-  OBJECT_FILE_DIR = CMakeFiles\ThreadedTree.dir\ThreadedTree
+  OBJECT_DIR = CMakeFiles\2-1binaryTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\2-1binaryTree.dir\02.TreeStruct\1.binaryTree
 
-build CMakeFiles/ThreadedTree.dir/ThreadedTree/main.cpp.obj: CXX_COMPILER__ThreadedTree_Debug C$:/Users/25328/Desktop/DataStructure/ThreadedTree/main.cpp || cmake_object_order_depends_target_ThreadedTree
-  DEP_FILE = CMakeFiles\ThreadedTree.dir\ThreadedTree\main.cpp.obj.d
+build CMakeFiles/2-1binaryTree.dir/02.TreeStruct/1.binaryTree/main.cpp.obj: CXX_COMPILER__2-1binaryTree_Debug C$:/Users/25328/Desktop/DataStructure/02.TreeStruct/1.binaryTree/main.cpp || cmake_object_order_depends_target_2-1binaryTree
+  DEP_FILE = CMakeFiles\2-1binaryTree.dir\02.TreeStruct\1.binaryTree\main.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ThreadedTree.dir
-  OBJECT_FILE_DIR = CMakeFiles\ThreadedTree.dir\ThreadedTree
+  OBJECT_DIR = CMakeFiles\2-1binaryTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\2-1binaryTree.dir\02.TreeStruct\1.binaryTree
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ThreadedTree
+# Link build statements for EXECUTABLE target 2-1binaryTree
 
 
 #############################################
-# Link the executable ThreadedTree.exe
+# Link the executable 2-1binaryTree.exe
 
-build ThreadedTree.exe: CXX_EXECUTABLE_LINKER__ThreadedTree_Debug CMakeFiles/ThreadedTree.dir/ThreadedTree/threadedTree.cpp.obj CMakeFiles/ThreadedTree.dir/ThreadedTree/main.cpp.obj
+build 2-1binaryTree.exe: CXX_EXECUTABLE_LINKER__2-1binaryTree_Debug CMakeFiles/2-1binaryTree.dir/02.TreeStruct/1.binaryTree/BinaryTree.cpp.obj CMakeFiles/2-1binaryTree.dir/02.TreeStruct/1.binaryTree/main.cpp.obj
   FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ThreadedTree.dir
+  OBJECT_DIR = CMakeFiles\2-1binaryTree.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = ThreadedTree.exe
-  TARGET_IMPLIB = libThreadedTree.dll.a
-  TARGET_PDB = ThreadedTree.exe.dbg
+  TARGET_FILE = 2-1binaryTree.exe
+  TARGET_IMPLIB = lib2-1binaryTree.dll.a
+  TARGET_PDB = 2-1binaryTree.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target BinaryTree
+# Object build statements for EXECUTABLE target 2-2threadTree
 
 
 #############################################
-# Order-only phony target for BinaryTree
+# Order-only phony target for 2-2threadTree
 
-build cmake_object_order_depends_target_BinaryTree: phony || CMakeFiles/BinaryTree.dir
+build cmake_object_order_depends_target_2-2threadTree: phony || CMakeFiles/2-2threadTree.dir
 
-build CMakeFiles/BinaryTree.dir/binaryTree/BinaryTree.cpp.obj: CXX_COMPILER__BinaryTree_Debug C$:/Users/25328/Desktop/DataStructure/binaryTree/BinaryTree.cpp || cmake_object_order_depends_target_BinaryTree
-  DEP_FILE = CMakeFiles\BinaryTree.dir\binaryTree\BinaryTree.cpp.obj.d
+build CMakeFiles/2-2threadTree.dir/02.TreeStruct/2.ThreadedTree/threadedTree.cpp.obj: CXX_COMPILER__2-2threadTree_Debug C$:/Users/25328/Desktop/DataStructure/02.TreeStruct/2.ThreadedTree/threadedTree.cpp || cmake_object_order_depends_target_2-2threadTree
+  DEP_FILE = CMakeFiles\2-2threadTree.dir\02.TreeStruct\2.ThreadedTree\threadedTree.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\BinaryTree.dir
-  OBJECT_FILE_DIR = CMakeFiles\BinaryTree.dir\binaryTree
+  OBJECT_DIR = CMakeFiles\2-2threadTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\2-2threadTree.dir\02.TreeStruct\2.ThreadedTree
 
-build CMakeFiles/BinaryTree.dir/binaryTree/main.cpp.obj: CXX_COMPILER__BinaryTree_Debug C$:/Users/25328/Desktop/DataStructure/binaryTree/main.cpp || cmake_object_order_depends_target_BinaryTree
-  DEP_FILE = CMakeFiles\BinaryTree.dir\binaryTree\main.cpp.obj.d
+build CMakeFiles/2-2threadTree.dir/02.TreeStruct/2.ThreadedTree/main.cpp.obj: CXX_COMPILER__2-2threadTree_Debug C$:/Users/25328/Desktop/DataStructure/02.TreeStruct/2.ThreadedTree/main.cpp || cmake_object_order_depends_target_2-2threadTree
+  DEP_FILE = CMakeFiles\2-2threadTree.dir\02.TreeStruct\2.ThreadedTree\main.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\BinaryTree.dir
-  OBJECT_FILE_DIR = CMakeFiles\BinaryTree.dir\binaryTree
+  OBJECT_DIR = CMakeFiles\2-2threadTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\2-2threadTree.dir\02.TreeStruct\2.ThreadedTree
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target BinaryTree
+# Link build statements for EXECUTABLE target 2-2threadTree
 
 
 #############################################
-# Link the executable BinaryTree.exe
+# Link the executable 2-2threadTree.exe
 
-build BinaryTree.exe: CXX_EXECUTABLE_LINKER__BinaryTree_Debug CMakeFiles/BinaryTree.dir/binaryTree/BinaryTree.cpp.obj CMakeFiles/BinaryTree.dir/binaryTree/main.cpp.obj
+build 2-2threadTree.exe: CXX_EXECUTABLE_LINKER__2-2threadTree_Debug CMakeFiles/2-2threadTree.dir/02.TreeStruct/2.ThreadedTree/threadedTree.cpp.obj CMakeFiles/2-2threadTree.dir/02.TreeStruct/2.ThreadedTree/main.cpp.obj
   FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\BinaryTree.dir
+  OBJECT_DIR = CMakeFiles\2-2threadTree.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = BinaryTree.exe
-  TARGET_IMPLIB = libBinaryTree.dll.a
-  TARGET_PDB = BinaryTree.exe.dbg
+  TARGET_FILE = 2-2threadTree.exe
+  TARGET_IMPLIB = lib2-2threadTree.dll.a
+  TARGET_PDB = 2-2threadTree.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target BinarySearchTree
+# Object build statements for EXECUTABLE target 2-3binarySearchTree
 
 
 #############################################
-# Order-only phony target for BinarySearchTree
+# Order-only phony target for 2-3binarySearchTree
 
-build cmake_object_order_depends_target_BinarySearchTree: phony || CMakeFiles/BinarySearchTree.dir
+build cmake_object_order_depends_target_2-3binarySearchTree: phony || CMakeFiles/2-3binarySearchTree.dir
 
-build CMakeFiles/BinarySearchTree.dir/BinarySearchTree/BSTree.cpp.obj: CXX_COMPILER__BinarySearchTree_Debug C$:/Users/25328/Desktop/DataStructure/BinarySearchTree/BSTree.cpp || cmake_object_order_depends_target_BinarySearchTree
-  DEP_FILE = CMakeFiles\BinarySearchTree.dir\BinarySearchTree\BSTree.cpp.obj.d
+build CMakeFiles/2-3binarySearchTree.dir/02.TreeStruct/3.BinarySearchTree/BSTree.cpp.obj: CXX_COMPILER__2-3binarySearchTree_Debug C$:/Users/25328/Desktop/DataStructure/02.TreeStruct/3.BinarySearchTree/BSTree.cpp || cmake_object_order_depends_target_2-3binarySearchTree
+  DEP_FILE = CMakeFiles\2-3binarySearchTree.dir\02.TreeStruct\3.BinarySearchTree\BSTree.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\BinarySearchTree.dir
-  OBJECT_FILE_DIR = CMakeFiles\BinarySearchTree.dir\BinarySearchTree
+  OBJECT_DIR = CMakeFiles\2-3binarySearchTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\2-3binarySearchTree.dir\02.TreeStruct\3.BinarySearchTree
 
-build CMakeFiles/BinarySearchTree.dir/BinarySearchTree/main.cpp.obj: CXX_COMPILER__BinarySearchTree_Debug C$:/Users/25328/Desktop/DataStructure/BinarySearchTree/main.cpp || cmake_object_order_depends_target_BinarySearchTree
-  DEP_FILE = CMakeFiles\BinarySearchTree.dir\BinarySearchTree\main.cpp.obj.d
+build CMakeFiles/2-3binarySearchTree.dir/02.TreeStruct/3.BinarySearchTree/main.cpp.obj: CXX_COMPILER__2-3binarySearchTree_Debug C$:/Users/25328/Desktop/DataStructure/02.TreeStruct/3.BinarySearchTree/main.cpp || cmake_object_order_depends_target_2-3binarySearchTree
+  DEP_FILE = CMakeFiles\2-3binarySearchTree.dir\02.TreeStruct\3.BinarySearchTree\main.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\BinarySearchTree.dir
-  OBJECT_FILE_DIR = CMakeFiles\BinarySearchTree.dir\BinarySearchTree
+  OBJECT_DIR = CMakeFiles\2-3binarySearchTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\2-3binarySearchTree.dir\02.TreeStruct\3.BinarySearchTree
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target BinarySearchTree
+# Link build statements for EXECUTABLE target 2-3binarySearchTree
 
 
 #############################################
-# Link the executable BinarySearchTree.exe
+# Link the executable 2-3binarySearchTree.exe
 
-build BinarySearchTree.exe: CXX_EXECUTABLE_LINKER__BinarySearchTree_Debug CMakeFiles/BinarySearchTree.dir/BinarySearchTree/BSTree.cpp.obj CMakeFiles/BinarySearchTree.dir/BinarySearchTree/main.cpp.obj
+build 2-3binarySearchTree.exe: CXX_EXECUTABLE_LINKER__2-3binarySearchTree_Debug CMakeFiles/2-3binarySearchTree.dir/02.TreeStruct/3.BinarySearchTree/BSTree.cpp.obj CMakeFiles/2-3binarySearchTree.dir/02.TreeStruct/3.BinarySearchTree/main.cpp.obj
   FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\BinarySearchTree.dir
+  OBJECT_DIR = CMakeFiles\2-3binarySearchTree.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = BinarySearchTree.exe
-  TARGET_IMPLIB = libBinarySearchTree.dll.a
-  TARGET_PDB = BinarySearchTree.exe.dbg
+  TARGET_FILE = 2-3binarySearchTree.exe
+  TARGET_IMPLIB = lib2-3binarySearchTree.dll.a
+  TARGET_PDB = 2-3binarySearchTree.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target AVLTree
+# Object build statements for EXECUTABLE target 2-4avlTree
 
 
 #############################################
-# Order-only phony target for AVLTree
+# Order-only phony target for 2-4avlTree
 
-build cmake_object_order_depends_target_AVLTree: phony || CMakeFiles/AVLTree.dir
+build cmake_object_order_depends_target_2-4avlTree: phony || CMakeFiles/2-4avlTree.dir
 
-build CMakeFiles/AVLTree.dir/AVLTree/avlTree.cpp.obj: CXX_COMPILER__AVLTree_Debug C$:/Users/25328/Desktop/DataStructure/AVLTree/avlTree.cpp || cmake_object_order_depends_target_AVLTree
-  DEP_FILE = CMakeFiles\AVLTree.dir\AVLTree\avlTree.cpp.obj.d
+build CMakeFiles/2-4avlTree.dir/02.TreeStruct/4.AVLTree/avlTree.cpp.obj: CXX_COMPILER__2-4avlTree_Debug C$:/Users/25328/Desktop/DataStructure/02.TreeStruct/4.AVLTree/avlTree.cpp || cmake_object_order_depends_target_2-4avlTree
+  DEP_FILE = CMakeFiles\2-4avlTree.dir\02.TreeStruct\4.AVLTree\avlTree.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\AVLTree.dir
-  OBJECT_FILE_DIR = CMakeFiles\AVLTree.dir\AVLTree
+  OBJECT_DIR = CMakeFiles\2-4avlTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\2-4avlTree.dir\02.TreeStruct\4.AVLTree
 
-build CMakeFiles/AVLTree.dir/AVLTree/main.cpp.obj: CXX_COMPILER__AVLTree_Debug C$:/Users/25328/Desktop/DataStructure/AVLTree/main.cpp || cmake_object_order_depends_target_AVLTree
-  DEP_FILE = CMakeFiles\AVLTree.dir\AVLTree\main.cpp.obj.d
+build CMakeFiles/2-4avlTree.dir/02.TreeStruct/4.AVLTree/main.cpp.obj: CXX_COMPILER__2-4avlTree_Debug C$:/Users/25328/Desktop/DataStructure/02.TreeStruct/4.AVLTree/main.cpp || cmake_object_order_depends_target_2-4avlTree
+  DEP_FILE = CMakeFiles\2-4avlTree.dir\02.TreeStruct\4.AVLTree\main.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\AVLTree.dir
-  OBJECT_FILE_DIR = CMakeFiles\AVLTree.dir\AVLTree
+  OBJECT_DIR = CMakeFiles\2-4avlTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\2-4avlTree.dir\02.TreeStruct\4.AVLTree
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target AVLTree
+# Link build statements for EXECUTABLE target 2-4avlTree
 
 
 #############################################
-# Link the executable AVLTree.exe
+# Link the executable 2-4avlTree.exe
 
-build AVLTree.exe: CXX_EXECUTABLE_LINKER__AVLTree_Debug CMakeFiles/AVLTree.dir/AVLTree/avlTree.cpp.obj CMakeFiles/AVLTree.dir/AVLTree/main.cpp.obj
+build 2-4avlTree.exe: CXX_EXECUTABLE_LINKER__2-4avlTree_Debug CMakeFiles/2-4avlTree.dir/02.TreeStruct/4.AVLTree/avlTree.cpp.obj CMakeFiles/2-4avlTree.dir/02.TreeStruct/4.AVLTree/main.cpp.obj
   FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\AVLTree.dir
+  OBJECT_DIR = CMakeFiles\2-4avlTree.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = AVLTree.exe
-  TARGET_IMPLIB = libAVLTree.dll.a
-  TARGET_PDB = AVLTree.exe.dbg
+  TARGET_FILE = 2-4avlTree.exe
+  TARGET_IMPLIB = lib2-4avlTree.dll.a
+  TARGET_PDB = 2-4avlTree.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target UnionFindSet
+# Object build statements for EXECUTABLE target 2-5unionFindSet
 
 
 #############################################
-# Order-only phony target for UnionFindSet
+# Order-only phony target for 2-5unionFindSet
 
-build cmake_object_order_depends_target_UnionFindSet: phony || CMakeFiles/UnionFindSet.dir
+build cmake_object_order_depends_target_2-5unionFindSet: phony || CMakeFiles/2-5unionFindSet.dir
 
-build CMakeFiles/UnionFindSet.dir/UnionFindSet/quickFindSet.cpp.obj: CXX_COMPILER__UnionFindSet_Debug C$:/Users/25328/Desktop/DataStructure/UnionFindSet/quickFindSet.cpp || cmake_object_order_depends_target_UnionFindSet
-  DEP_FILE = CMakeFiles\UnionFindSet.dir\UnionFindSet\quickFindSet.cpp.obj.d
+build CMakeFiles/2-5unionFindSet.dir/02.TreeStruct/5.UnionFindSet/quickFindSet.cpp.obj: CXX_COMPILER__2-5unionFindSet_Debug C$:/Users/25328/Desktop/DataStructure/02.TreeStruct/5.UnionFindSet/quickFindSet.cpp || cmake_object_order_depends_target_2-5unionFindSet
+  DEP_FILE = CMakeFiles\2-5unionFindSet.dir\02.TreeStruct\5.UnionFindSet\quickFindSet.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\UnionFindSet.dir
-  OBJECT_FILE_DIR = CMakeFiles\UnionFindSet.dir\UnionFindSet
+  OBJECT_DIR = CMakeFiles\2-5unionFindSet.dir
+  OBJECT_FILE_DIR = CMakeFiles\2-5unionFindSet.dir\02.TreeStruct\5.UnionFindSet
 
-build CMakeFiles/UnionFindSet.dir/UnionFindSet/main.cpp.obj: CXX_COMPILER__UnionFindSet_Debug C$:/Users/25328/Desktop/DataStructure/UnionFindSet/main.cpp || cmake_object_order_depends_target_UnionFindSet
-  DEP_FILE = CMakeFiles\UnionFindSet.dir\UnionFindSet\main.cpp.obj.d
+build CMakeFiles/2-5unionFindSet.dir/02.TreeStruct/5.UnionFindSet/main.cpp.obj: CXX_COMPILER__2-5unionFindSet_Debug C$:/Users/25328/Desktop/DataStructure/02.TreeStruct/5.UnionFindSet/main.cpp || cmake_object_order_depends_target_2-5unionFindSet
+  DEP_FILE = CMakeFiles\2-5unionFindSet.dir\02.TreeStruct\5.UnionFindSet\main.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\UnionFindSet.dir
-  OBJECT_FILE_DIR = CMakeFiles\UnionFindSet.dir\UnionFindSet
+  OBJECT_DIR = CMakeFiles\2-5unionFindSet.dir
+  OBJECT_FILE_DIR = CMakeFiles\2-5unionFindSet.dir\02.TreeStruct\5.UnionFindSet
 
-build CMakeFiles/UnionFindSet.dir/UnionFindSet/quickUnion.cpp.obj: CXX_COMPILER__UnionFindSet_Debug C$:/Users/25328/Desktop/DataStructure/UnionFindSet/quickUnion.cpp || cmake_object_order_depends_target_UnionFindSet
-  DEP_FILE = CMakeFiles\UnionFindSet.dir\UnionFindSet\quickUnion.cpp.obj.d
+build CMakeFiles/2-5unionFindSet.dir/02.TreeStruct/5.UnionFindSet/quickUnion.cpp.obj: CXX_COMPILER__2-5unionFindSet_Debug C$:/Users/25328/Desktop/DataStructure/02.TreeStruct/5.UnionFindSet/quickUnion.cpp || cmake_object_order_depends_target_2-5unionFindSet
+  DEP_FILE = CMakeFiles\2-5unionFindSet.dir\02.TreeStruct\5.UnionFindSet\quickUnion.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\UnionFindSet.dir
-  OBJECT_FILE_DIR = CMakeFiles\UnionFindSet.dir\UnionFindSet
+  OBJECT_DIR = CMakeFiles\2-5unionFindSet.dir
+  OBJECT_FILE_DIR = CMakeFiles\2-5unionFindSet.dir\02.TreeStruct\5.UnionFindSet
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target UnionFindSet
+# Link build statements for EXECUTABLE target 2-5unionFindSet
 
 
 #############################################
-# Link the executable UnionFindSet.exe
+# Link the executable 2-5unionFindSet.exe
 
-build UnionFindSet.exe: CXX_EXECUTABLE_LINKER__UnionFindSet_Debug CMakeFiles/UnionFindSet.dir/UnionFindSet/quickFindSet.cpp.obj CMakeFiles/UnionFindSet.dir/UnionFindSet/main.cpp.obj CMakeFiles/UnionFindSet.dir/UnionFindSet/quickUnion.cpp.obj
+build 2-5unionFindSet.exe: CXX_EXECUTABLE_LINKER__2-5unionFindSet_Debug CMakeFiles/2-5unionFindSet.dir/02.TreeStruct/5.UnionFindSet/quickFindSet.cpp.obj CMakeFiles/2-5unionFindSet.dir/02.TreeStruct/5.UnionFindSet/main.cpp.obj CMakeFiles/2-5unionFindSet.dir/02.TreeStruct/5.UnionFindSet/quickUnion.cpp.obj
   FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\UnionFindSet.dir
+  OBJECT_DIR = CMakeFiles\2-5unionFindSet.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = UnionFindSet.exe
-  TARGET_IMPLIB = libUnionFindSet.dll.a
-  TARGET_PDB = UnionFindSet.exe.dbg
+  TARGET_FILE = 2-5unionFindSet.exe
+  TARGET_IMPLIB = lib2-5unionFindSet.dll.a
+  TARGET_PDB = 2-5unionFindSet.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2-6HuffmanTree
+
+
+#############################################
+# Order-only phony target for 2-6HuffmanTree
+
+build cmake_object_order_depends_target_2-6HuffmanTree: phony || CMakeFiles/2-6HuffmanTree.dir
+
+build CMakeFiles/2-6HuffmanTree.dir/02.TreeStruct/6.HuffmanTree/huffmanTree.cpp.obj: CXX_COMPILER__2-6HuffmanTree_Debug C$:/Users/25328/Desktop/DataStructure/02.TreeStruct/6.HuffmanTree/huffmanTree.cpp || cmake_object_order_depends_target_2-6HuffmanTree
+  DEP_FILE = CMakeFiles\2-6HuffmanTree.dir\02.TreeStruct\6.HuffmanTree\huffmanTree.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2-6HuffmanTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\2-6HuffmanTree.dir\02.TreeStruct\6.HuffmanTree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2-6HuffmanTree
+
+
+#############################################
+# Link the executable 2-6HuffmanTree.exe
+
+build 2-6HuffmanTree.exe: CXX_EXECUTABLE_LINKER__2-6HuffmanTree_Debug CMakeFiles/2-6HuffmanTree.dir/02.TreeStruct/6.HuffmanTree/huffmanTree.cpp.obj
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2-6HuffmanTree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2-6HuffmanTree.exe
+  TARGET_IMPLIB = lib2-6HuffmanTree.dll.a
+  TARGET_PDB = 2-6HuffmanTree.exe.dbg
 
 
 #############################################
@@ -435,23 +468,25 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build AVLTree: phony AVLTree.exe
+build 1-1seqList: phony 1-1seqList.exe
 
-build BinarySearchTree: phony BinarySearchTree.exe
+build 1-2linkList: phony 1-2linkList.exe
 
-build BinaryTree: phony BinaryTree.exe
+build 1-3stack: phony 1-3stack.exe
 
-build Linear_table: phony Linear_table.exe
+build 1-4queue: phony 1-4queue.exe
 
-build LinkList: phony LinkList.exe
+build 2-1binaryTree: phony 2-1binaryTree.exe
 
-build Queue: phony Queue.exe
+build 2-2threadTree: phony 2-2threadTree.exe
 
-build Stack: phony Stack.exe
+build 2-3binarySearchTree: phony 2-3binarySearchTree.exe
 
-build ThreadedTree: phony ThreadedTree.exe
+build 2-4avlTree: phony 2-4avlTree.exe
 
-build UnionFindSet: phony UnionFindSet.exe
+build 2-5unionFindSet: phony 2-5unionFindSet.exe
+
+build 2-6HuffmanTree: phony 2-6HuffmanTree.exe
 
 # =============================================================================
 # Folder targets.
@@ -461,7 +496,7 @@ build UnionFindSet: phony UnionFindSet.exe
 #############################################
 # Folder: C:/Users/25328/Desktop/DataStructure/cmake-build-debug
 
-build all: phony Linear_table.exe LinkList.exe Queue.exe Stack.exe ThreadedTree.exe BinaryTree.exe BinarySearchTree.exe AVLTree.exe UnionFindSet.exe
+build all: phony 1-1seqList.exe 1-2linkList.exe 1-3stack.exe 1-4queue.exe 2-1binaryTree.exe 2-2threadTree.exe 2-3binarySearchTree.exe 2-4avlTree.exe 2-5unionFindSet.exe 2-6HuffmanTree.exe
 
 # =============================================================================
 # Built-in targets

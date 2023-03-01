@@ -11,21 +11,23 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c99")
 IF(WIN32)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fexec-charset=GBK")
 ENDIF()
-
-add_executable(Linear_table Linear_table/main.cpp Linear_table/SqList.cpp)
-
-add_executable(LinkList LinkList/linkList.cpp LinkList/main.cpp)
-
-add_executable(Queue Queue/ArrayQueue.cpp Queue/linkQueue.cpp Queue/main.cpp)
-
-add_executable(Stack Stack/arrayStack.cpp Stack/linkStack.cpp Stack/main.cpp)
-
-add_executable(ThreadedTree ThreadedTree/threadedTree.cpp ThreadedTree/main.cpp)
-
-add_executable(BinaryTree BinaryTree/BinaryTree.cpp BinaryTree/main.cpp)
-
-add_executable(BinarySearchTree BinarySearchTree/BSTree.cpp BinarySearchTree/BSTree.h BinarySearchTree/main.cpp)
-
-add_executable(AVLTree AVLTree/avlTree.cpp AVLTree/avlTree.h AVLTree/main.cpp)
-
-add_executable(UnionFindSet UnionFindSet/quickFindSet.cpp UnionFindSet/quickFindSet.h UnionFindSet/main.cpp UnionFindSet/quickUnion.cpp UnionFindSet/quickUnion.h)
+# 动态线性表
+add_executable(1-1seqList 01.linear/1.seqList 01.linear/1.seqList/main.cpp 01.linear/1.seqList/SqList.cpp)
+# 链表
+add_executable(1-2linkList 01.linear/2.LinkList 01.linear/2.LinkList/linkList.cpp 01.linear/2.LinkList/main.cpp)
+# 栈
+add_executable(1-3stack 01.linear/3.stack/arrayStack.cpp 01.linear/3.stack/linkStack.cpp 01.linear/3.stack/main.cpp)
+# 队列
+add_executable(1-4queue 01.linear/4.queue 01.linear/4.queue/ArrayQueue.cpp 01.linear/4.queue/linkQueue.cpp 01.linear/4.queue/main.cpp)
+# 二叉树
+add_executable(2-1binaryTree 02.TreeStruct/1.binaryTree 02.TreeStruct/1.binaryTree/BinaryTree.cpp 02.TreeStruct/1.binaryTree/main.cpp)
+# 线索二叉树
+add_executable(2-2threadTree 02.TreeStruct/2.ThreadedTree 02.TreeStruct/2.ThreadedTree/threadedTree.cpp 02.TreeStruct/2.ThreadedTree/main.cpp)
+# 二叉搜索树
+add_executable(2-3binarySearchTree 02.TreeStruct/3.BinarySearchTree 02.TreeStruct/3.BinarySearchTree/BSTree.cpp 02.TreeStruct/3.BinarySearchTree/BSTree.h 02.TreeStruct/3.BinarySearchTree/main.cpp)
+# 平衡二叉树
+add_executable(2-4avlTree 02.TreeStruct/4.AVLTree 02.TreeStruct/4.AVLTree/avlTree.cpp 02.TreeStruct/4.AVLTree/avlTree.h 02.TreeStruct/4.AVLTree/main.cpp)
+# 查并集
+add_executable(2-5unionFindSet 02.TreeStruct/5.UnionFindSet 02.TreeStruct/5.UnionFindSet/quickFindSet.cpp 02.TreeStruct/5.UnionFindSet/quickFindSet.h 02.TreeStruct/5.UnionFindSet/main.cpp 02.TreeStruct/5.UnionFindSet/quickUnion.cpp 02.TreeStruct/5.UnionFindSet/quickUnion.h)
+#哈夫曼树
+add_executable(2-6HuffmanTree 02.TreeStruct/6.HuffmanTree/huffmanTree.cpp 02.TreeStruct/6.HuffmanTree/huffmanTree.h)

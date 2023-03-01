@@ -26,7 +26,7 @@ static void deleteNode(AVLTree *tree, AVLNode *node)
 void releaseAVLTree(AVLTree *tree) {
     if(tree)
         deleteNode(tree,tree->root);
-    printf("AVLTree has %d node", tree->count);
+    printf("4.AVLTree has %d node", tree->count);
     delete tree;
 }
 

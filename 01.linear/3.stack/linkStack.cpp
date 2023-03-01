@@ -55,10 +55,10 @@ int popLinkStack(LinkStack *stack, Element *e) {
 void releaseLinkStack(LinkStack *stack) {
     if (stack) {
         while (stack->top) {
-//            stackNode *tmp = stack->top;
-//            stack->top = tmp->next;
+//            stackNode *tmp = 3.stack->top;
+//            3.stack->top = tmp->next;
 //            delete tmp;
-//            stack->count--;
+//            3.stack->count--;
             popLinkStack(stack);
         }
     }

@@ -22,7 +22,7 @@ int enArrayQueue(ArrayQueue *queue, Element e) {
     //先判断队列满不满
     if ((queue->rear + 1) % MaxQueue == queue->front)
     {
-        std::cout << "Queue full..." << std::endl;
+        std::cout << "4.queue full..." << std::endl;
         return -1;
     }
     queue->rear = (queue->rear+1) % MaxQueue;
@@ -33,7 +33,7 @@ int enArrayQueue(ArrayQueue *queue, Element e) {
 int deArrayQueue(ArrayQueue *queue, Element* e) {
     if (queue->rear == queue->front)
     {
-        std::cout << "Queue empty..." << std::endl;
+        std::cout << "4.queue empty..." << std::endl;
         return -1;
     }
     queue->front = (queue->front + 1) % MaxQueue;
