@@ -30,4 +30,4 @@ add_executable(2-4avlTree 02.TreeStruct/4.AVLTree 02.TreeStruct/4.AVLTree/avlTre
 # 查并集
 add_executable(2-5unionFindSet 02.TreeStruct/5.UnionFindSet 02.TreeStruct/5.UnionFindSet/quickFindSet.cpp 02.TreeStruct/5.UnionFindSet/quickFindSet.h 02.TreeStruct/5.UnionFindSet/main.cpp 02.TreeStruct/5.UnionFindSet/quickUnion.cpp 02.TreeStruct/5.UnionFindSet/quickUnion.h)
 #哈夫曼树
-add_executable(2-6HuffmanTree 02.TreeStruct/6.HuffmanTree/huffmanTree.cpp 02.TreeStruct/6.HuffmanTree/huffmanTree.h)
+add_executable(2-6HuffmanTree 02.TreeStruct/6.HuffmanTree/huffmanTree.cpp 02.TreeStruct/6.HuffmanTree/huffmanTree.h 02.TreeStruct/6.HuffmanTree/main.cpp)

@@ -424,6 +424,12 @@ build CMakeFiles/2-6HuffmanTree.dir/02.TreeStruct/6.HuffmanTree/huffmanTree.cpp.
   OBJECT_DIR = CMakeFiles\2-6HuffmanTree.dir
   OBJECT_FILE_DIR = CMakeFiles\2-6HuffmanTree.dir\02.TreeStruct\6.HuffmanTree
 
+build CMakeFiles/2-6HuffmanTree.dir/02.TreeStruct/6.HuffmanTree/main.cpp.obj: CXX_COMPILER__2-6HuffmanTree_Debug C$:/Users/25328/Desktop/DataStructure/02.TreeStruct/6.HuffmanTree/main.cpp || cmake_object_order_depends_target_2-6HuffmanTree
+  DEP_FILE = CMakeFiles\2-6HuffmanTree.dir\02.TreeStruct\6.HuffmanTree\main.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2-6HuffmanTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\2-6HuffmanTree.dir\02.TreeStruct\6.HuffmanTree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 2-6HuffmanTree
@@ -432,7 +438,7 @@ build CMakeFiles/2-6HuffmanTree.dir/02.TreeStruct/6.HuffmanTree/huffmanTree.cpp.
 #############################################
 # Link the executable 2-6HuffmanTree.exe
 
-build 2-6HuffmanTree.exe: CXX_EXECUTABLE_LINKER__2-6HuffmanTree_Debug CMakeFiles/2-6HuffmanTree.dir/02.TreeStruct/6.HuffmanTree/huffmanTree.cpp.obj
+build 2-6HuffmanTree.exe: CXX_EXECUTABLE_LINKER__2-6HuffmanTree_Debug CMakeFiles/2-6HuffmanTree.dir/02.TreeStruct/6.HuffmanTree/huffmanTree.cpp.obj CMakeFiles/2-6HuffmanTree.dir/02.TreeStruct/6.HuffmanTree/main.cpp.obj
   FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\2-6HuffmanTree.dir
