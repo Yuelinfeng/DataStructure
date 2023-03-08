@@ -8,5 +8,7 @@ C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/2-3binarySearc
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/2-4avlTree.dir
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/2-5unionFindSet.dir
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/2-6HuffmanTree.dir
+C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/3-1MatrixGraph.dir
+C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/3-2AdjacentGraph.dir
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/rebuild_cache.dir

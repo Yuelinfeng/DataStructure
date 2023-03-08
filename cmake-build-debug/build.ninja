@@ -448,6 +448,84 @@ build 2-6HuffmanTree.exe: CXX_EXECUTABLE_LINKER__2-6HuffmanTree_Debug CMakeFiles
   TARGET_IMPLIB = lib2-6HuffmanTree.dll.a
   TARGET_PDB = 2-6HuffmanTree.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 3-1MatrixGraph
+
+
+#############################################
+# Order-only phony target for 3-1MatrixGraph
+
+build cmake_object_order_depends_target_3-1MatrixGraph: phony || CMakeFiles/3-1MatrixGraph.dir
+
+build CMakeFiles/3-1MatrixGraph.dir/Graph/01.MatrixGraph/matrixGraph.cpp.obj: CXX_COMPILER__3-1MatrixGraph_Debug C$:/Users/25328/Desktop/DataStructure/Graph/01.MatrixGraph/matrixGraph.cpp || cmake_object_order_depends_target_3-1MatrixGraph
+  DEP_FILE = CMakeFiles\3-1MatrixGraph.dir\Graph\01.MatrixGraph\matrixGraph.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3-1MatrixGraph.dir
+  OBJECT_FILE_DIR = CMakeFiles\3-1MatrixGraph.dir\Graph\01.MatrixGraph
+
+build CMakeFiles/3-1MatrixGraph.dir/Graph/01.MatrixGraph/main.cpp.obj: CXX_COMPILER__3-1MatrixGraph_Debug C$:/Users/25328/Desktop/DataStructure/Graph/01.MatrixGraph/main.cpp || cmake_object_order_depends_target_3-1MatrixGraph
+  DEP_FILE = CMakeFiles\3-1MatrixGraph.dir\Graph\01.MatrixGraph\main.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3-1MatrixGraph.dir
+  OBJECT_FILE_DIR = CMakeFiles\3-1MatrixGraph.dir\Graph\01.MatrixGraph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3-1MatrixGraph
+
+
+#############################################
+# Link the executable 3-1MatrixGraph.exe
+
+build 3-1MatrixGraph.exe: CXX_EXECUTABLE_LINKER__3-1MatrixGraph_Debug CMakeFiles/3-1MatrixGraph.dir/Graph/01.MatrixGraph/matrixGraph.cpp.obj CMakeFiles/3-1MatrixGraph.dir/Graph/01.MatrixGraph/main.cpp.obj
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3-1MatrixGraph.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3-1MatrixGraph.exe
+  TARGET_IMPLIB = lib3-1MatrixGraph.dll.a
+  TARGET_PDB = 3-1MatrixGraph.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3-2AdjacentGraph
+
+
+#############################################
+# Order-only phony target for 3-2AdjacentGraph
+
+build cmake_object_order_depends_target_3-2AdjacentGraph: phony || CMakeFiles/3-2AdjacentGraph.dir
+
+build CMakeFiles/3-2AdjacentGraph.dir/Graph/02.AdjacentGraph/adjacentGraph.cpp.obj: CXX_COMPILER__3-2AdjacentGraph_Debug C$:/Users/25328/Desktop/DataStructure/Graph/02.AdjacentGraph/adjacentGraph.cpp || cmake_object_order_depends_target_3-2AdjacentGraph
+  DEP_FILE = CMakeFiles\3-2AdjacentGraph.dir\Graph\02.AdjacentGraph\adjacentGraph.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3-2AdjacentGraph.dir
+  OBJECT_FILE_DIR = CMakeFiles\3-2AdjacentGraph.dir\Graph\02.AdjacentGraph
+
+build CMakeFiles/3-2AdjacentGraph.dir/Graph/02.AdjacentGraph/main.cpp.obj: CXX_COMPILER__3-2AdjacentGraph_Debug C$:/Users/25328/Desktop/DataStructure/Graph/02.AdjacentGraph/main.cpp || cmake_object_order_depends_target_3-2AdjacentGraph
+  DEP_FILE = CMakeFiles\3-2AdjacentGraph.dir\Graph\02.AdjacentGraph\main.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3-2AdjacentGraph.dir
+  OBJECT_FILE_DIR = CMakeFiles\3-2AdjacentGraph.dir\Graph\02.AdjacentGraph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3-2AdjacentGraph
+
+
+#############################################
+# Link the executable 3-2AdjacentGraph.exe
+
+build 3-2AdjacentGraph.exe: CXX_EXECUTABLE_LINKER__3-2AdjacentGraph_Debug CMakeFiles/3-2AdjacentGraph.dir/Graph/02.AdjacentGraph/adjacentGraph.cpp.obj CMakeFiles/3-2AdjacentGraph.dir/Graph/02.AdjacentGraph/main.cpp.obj
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3-2AdjacentGraph.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3-2AdjacentGraph.exe
+  TARGET_IMPLIB = lib3-2AdjacentGraph.dll.a
+  TARGET_PDB = 3-2AdjacentGraph.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -494,6 +572,10 @@ build 2-5unionFindSet: phony 2-5unionFindSet.exe
 
 build 2-6HuffmanTree: phony 2-6HuffmanTree.exe
 
+build 3-1MatrixGraph: phony 3-1MatrixGraph.exe
+
+build 3-2AdjacentGraph: phony 3-2AdjacentGraph.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -502,7 +584,7 @@ build 2-6HuffmanTree: phony 2-6HuffmanTree.exe
 #############################################
 # Folder: C:/Users/25328/Desktop/DataStructure/cmake-build-debug
 
-build all: phony 1-1seqList.exe 1-2linkList.exe 1-3stack.exe 1-4queue.exe 2-1binaryTree.exe 2-2threadTree.exe 2-3binarySearchTree.exe 2-4avlTree.exe 2-5unionFindSet.exe 2-6HuffmanTree.exe
+build all: phony 1-1seqList.exe 1-2linkList.exe 1-3stack.exe 1-4queue.exe 2-1binaryTree.exe 2-2threadTree.exe 2-3binarySearchTree.exe 2-4avlTree.exe 2-5unionFindSet.exe 2-6HuffmanTree.exe 3-1MatrixGraph.exe 3-2AdjacentGraph.exe
 
 # =============================================================================
 # Built-in targets

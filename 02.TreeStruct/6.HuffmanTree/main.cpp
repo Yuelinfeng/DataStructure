@@ -4,7 +4,7 @@
 #include "huffmanTree.h"
 #include <iostream>
 using namespace std;
-int main()
+int test01()
 {
     int w[] = {5,29,7,8,14,23,3,11};
     int show[] = {'A','B','C','D','E','F','G','H'};
@@ -21,4 +21,14 @@ int main()
     releaseHuffmanCode(code,sizeof(w)/sizeof(w[0]));
     releaseHuffmanTree(tree);
     return 0;
+}
+void test02()
+{
+    int a = 1, b = 1, c = 1, d= 2, m = 2, n = 2;
+    n = (m = a + b, c + d, 10);
+    cout << n << endl;
+}
+int main()
+{
+    test02();
 }
