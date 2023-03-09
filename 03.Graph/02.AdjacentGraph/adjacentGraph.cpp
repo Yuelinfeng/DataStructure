@@ -11,6 +11,7 @@ AGraph *createAGraph(int n) {
     // 创建结构
     AGraph * graph = new AGraph;
     graph->nodes = new ArcNode[n];
+    graph->visited = new int[n];
     graph->nodeNum = n;
     // 初始化
     memset(graph->nodes, 0, sizeof(ArcNode) * n);
@@ -34,6 +35,9 @@ void releaseAGraph(AGraph *graph) {
         }
         printf("release %d edges\n", count);
     }
+    delete[] graph->visited;
+    delete[] graph->nodes;
+    delete graph;
 }
 
 void initAGraph(AGraph *graph, int num, char **names, int directed) {
@@ -70,3 +74,58 @@ void addGraphEdge(AGraph *graph, int x, int y, int w) {
         graph->edgeNum++;
     }
 }
+
+void visitAGraphNode(ArcNode *node) {
+    printf("\t%s,",node->show);
+}
+
+void DFSAGraphTravel(AGraph *graph, int v) {
+    ArcEdge *p;
+    // 先访问v节点，遍历v节点中的其他边的情况，找到下一个节点，再递进去
+    graph->visited[v] = 1;
+    visitAGraphNode(&graph->nodes[v]);
+    // 能到达的节点
+    p = graph->nodes[v].firstEdge;
+    // 遍历p
+    while (p) {
+        if (graph->visited[p->no] == 0) // 如果未被访问过
+            DFSAGraphTravel(graph,p->no);
+        p = p->next;
+    }
+}
+
+void resetAGraphVisited(AGraph *graph) {
+    if(graph && graph->visited)
+        memset(graph->visited, 0, sizeof(int) * graph->nodeNum);
+}
+
+void BFSAGraphTravel(AGraph *graph, int v) {
+    int *que = new int[graph->nodeNum];
+    ArcEdge *p;
+    int rear =0, front = 0;
+    int cur;
+    // 入队
+    rear = (rear + 1) % graph->nodeNum;
+    que[rear] = v;
+    while (front != rear)
+    {
+        // 出队
+        front = (front + 1) % graph->nodeNum;
+        cur = que[front];
+        visitAGraphNode(&graph->nodes[cur]);
+        graph->visited[cur] = 1;
+        p = graph->nodes[cur].firstEdge;
+        while (p)
+        {
+            if (graph->visited[p->no] == 0)
+            {
+                rear = (rear + 1) % graph->nodeNum;
+                que[rear] = p->no;
+                graph->visited[p->no] = 1;
+            }
+            p = p->next;
+        }
+    }
+    delete[] que;
+}
+

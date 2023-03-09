@@ -26,6 +26,7 @@ struct ArcNode
 struct AGraph
 {
     ArcNode *nodes;     // 图中顶点的集合
+    int *visited;       // 是否访问的标记
     int nodeNum;        // 图中顶点的数量
     int edgeNum;        // 图中边的个数
     int directed;       // 是否有向，（建议有向）
@@ -40,4 +41,8 @@ void releaseAGraph(AGraph *graph);
 void initAGraph(AGraph *graph, int num, char **names, int directed);
 void addGraphEdge(AGraph *graph, int x, int y, int w);
 
+void resetAGraphVisited(AGraph *graph);
+void visitAGraphNode(ArcNode *node);
+void DFSAGraphTravel(AGraph *graph, int v);
+void BFSAGraphTravel(AGraph *graph, int v);
 #endif //DATASTRUCTURE_ADJACENTGRAPH_H

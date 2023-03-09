@@ -22,6 +22,14 @@ int main()
     AGraph *graph = createAGraph(n);
     setupGraph(graph);
     printf("边数为 : %d \n",graph->edgeNum);
+    printf("深度遍历: ");
+    resetAGraphVisited(graph);
+    DFSAGraphTravel(graph,0);
+    printf("\n");
+    printf("广度遍历: ");
+    resetAGraphVisited(graph);
+    BFSAGraphTravel(graph,0);
+    printf("\n");
     releaseAGraph(graph);
     return 0;
 }

@@ -32,5 +32,7 @@ typedef struct
  * */
 void initMGraph(MGraph *g, int num, char *names[], bool directed, int edgeValue);
 void addMGraphEdge(MGraph *g, int x, int y, int w);
-
+void clearMGraphVisit();
+void DFSMGraphTravel(MGraph *graph, int v);
+void BFSMGraphTravel(MGraph *graph, int v);
 #endif //DATASTRUCTURE_MATRIXGRAPH_H

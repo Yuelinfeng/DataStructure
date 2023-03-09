@@ -33,5 +33,5 @@ add_executable(2-5unionFindSet 02.TreeStruct/5.UnionFindSet 02.TreeStruct/5.Unio
 add_executable(2-6HuffmanTree 02.TreeStruct/6.HuffmanTree/huffmanTree.cpp 02.TreeStruct/6.HuffmanTree/huffmanTree.h 02.TreeStruct/6.HuffmanTree/main.cpp)
 
 #邻接矩阵
-add_executable(3-1MatrixGraph Graph/01.MatrixGraph/matrixGraph.cpp Graph/01.MatrixGraph/matrixGraph.h Graph/base.h Graph/01.MatrixGraph/main.cpp)
-add_executable(3-2AdjacentGraph Graph/02.AdjacentGraph/adjacentGraph.cpp Graph/02.AdjacentGraph/adjacentGraph.h Graph/base.h Graph/02.AdjacentGraph/main.cpp)
+add_executable(3-1MatrixGraph 03.Graph/01.MatrixGraph/matrixGraph.cpp 03.Graph/01.MatrixGraph/matrixGraph.h 03.Graph/base.h 03.Graph/01.MatrixGraph/main.cpp)
+add_executable(3-2AdjacentGraph 03.Graph/02.AdjacentGraph/adjacentGraph.cpp 03.Graph/02.AdjacentGraph/adjacentGraph.h 03.Graph/base.h 03.Graph/02.AdjacentGraph/main.cpp)
