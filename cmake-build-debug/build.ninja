@@ -565,6 +565,78 @@ build 3-3CrossLinkGraph.exe: CXX_EXECUTABLE_LINKER__3-3CrossLinkGraph_Debug CMak
   TARGET_IMPLIB = lib3-3CrossLinkGraph.dll.a
   TARGET_PDB = 3-3CrossLinkGraph.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 3-4AdjacencyMultiList
+
+
+#############################################
+# Order-only phony target for 3-4AdjacencyMultiList
+
+build cmake_object_order_depends_target_3-4AdjacencyMultiList: phony || CMakeFiles/3-4AdjacencyMultiList.dir
+
+build CMakeFiles/3-4AdjacencyMultiList.dir/03.Graph/04.AdjacencyMultiList/adjacencyMultiList.cpp.obj: CXX_COMPILER__3-4AdjacencyMultiList_Debug C$:/Users/25328/Desktop/DataStructure/03.Graph/04.AdjacencyMultiList/adjacencyMultiList.cpp || cmake_object_order_depends_target_3-4AdjacencyMultiList
+  DEP_FILE = CMakeFiles\3-4AdjacencyMultiList.dir\03.Graph\04.AdjacencyMultiList\adjacencyMultiList.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3-4AdjacencyMultiList.dir
+  OBJECT_FILE_DIR = CMakeFiles\3-4AdjacencyMultiList.dir\03.Graph\04.AdjacencyMultiList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3-4AdjacencyMultiList
+
+
+#############################################
+# Link the executable 3-4AdjacencyMultiList.exe
+
+build 3-4AdjacencyMultiList.exe: CXX_EXECUTABLE_LINKER__3-4AdjacencyMultiList_Debug CMakeFiles/3-4AdjacencyMultiList.dir/03.Graph/04.AdjacencyMultiList/adjacencyMultiList.cpp.obj
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3-4AdjacencyMultiList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3-4AdjacencyMultiList.exe
+  TARGET_IMPLIB = lib3-4AdjacencyMultiList.dll.a
+  TARGET_PDB = 3-4AdjacencyMultiList.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3-5MiniTree
+
+
+#############################################
+# Order-only phony target for 3-5MiniTree
+
+build cmake_object_order_depends_target_3-5MiniTree: phony || CMakeFiles/3-5MiniTree.dir
+
+build CMakeFiles/3-5MiniTree.dir/03.Graph/05.MiniTree/Kruskal.cpp.obj: CXX_COMPILER__3-5MiniTree_Debug C$:/Users/25328/Desktop/DataStructure/03.Graph/05.MiniTree/Kruskal.cpp || cmake_object_order_depends_target_3-5MiniTree
+  DEP_FILE = CMakeFiles\3-5MiniTree.dir\03.Graph\05.MiniTree\Kruskal.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3-5MiniTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\3-5MiniTree.dir\03.Graph\05.MiniTree
+
+build CMakeFiles/3-5MiniTree.dir/03.Graph/05.MiniTree/main.cpp.obj: CXX_COMPILER__3-5MiniTree_Debug C$:/Users/25328/Desktop/DataStructure/03.Graph/05.MiniTree/main.cpp || cmake_object_order_depends_target_3-5MiniTree
+  DEP_FILE = CMakeFiles\3-5MiniTree.dir\03.Graph\05.MiniTree\main.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3-5MiniTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\3-5MiniTree.dir\03.Graph\05.MiniTree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3-5MiniTree
+
+
+#############################################
+# Link the executable 3-5MiniTree.exe
+
+build 3-5MiniTree.exe: CXX_EXECUTABLE_LINKER__3-5MiniTree_Debug CMakeFiles/3-5MiniTree.dir/03.Graph/05.MiniTree/Kruskal.cpp.obj CMakeFiles/3-5MiniTree.dir/03.Graph/05.MiniTree/main.cpp.obj
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3-5MiniTree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3-5MiniTree.exe
+  TARGET_IMPLIB = lib3-5MiniTree.dll.a
+  TARGET_PDB = 3-5MiniTree.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -617,6 +689,10 @@ build 3-2AdjacentGraph: phony 3-2AdjacentGraph.exe
 
 build 3-3CrossLinkGraph: phony 3-3CrossLinkGraph.exe
 
+build 3-4AdjacencyMultiList: phony 3-4AdjacencyMultiList.exe
+
+build 3-5MiniTree: phony 3-5MiniTree.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -625,7 +701,7 @@ build 3-3CrossLinkGraph: phony 3-3CrossLinkGraph.exe
 #############################################
 # Folder: C:/Users/25328/Desktop/DataStructure/cmake-build-debug
 
-build all: phony 1-1seqList.exe 1-2linkList.exe 1-3stack.exe 1-4queue.exe 2-1binaryTree.exe 2-2threadTree.exe 2-3binarySearchTree.exe 2-4avlTree.exe 2-5unionFindSet.exe 2-6HuffmanTree.exe 3-1MatrixGraph.exe 3-2AdjacentGraph.exe 3-3CrossLinkGraph.exe
+build all: phony 1-1seqList.exe 1-2linkList.exe 1-3stack.exe 1-4queue.exe 2-1binaryTree.exe 2-2threadTree.exe 2-3binarySearchTree.exe 2-4avlTree.exe 2-5unionFindSet.exe 2-6HuffmanTree.exe 3-1MatrixGraph.exe 3-2AdjacentGraph.exe 3-3CrossLinkGraph.exe 3-4AdjacencyMultiList.exe 3-5MiniTree.exe
 
 # =============================================================================
 # Built-in targets
