@@ -41,4 +41,7 @@ add_executable(3-3CrossLinkGraph 03.Graph/03.CrossLinkGraph/crossLinkGraph.cpp 0
 #多重邻接表
 add_executable(3-4AdjacencyMultiList 03.Graph/04.AdjacencyMultiList/adjacencyMultiList.cpp 03.Graph/04.AdjacencyMultiList/adjacencyMultiList.h)
 #最小生成树
-add_executable(3-5MiniTree 03.Graph/05.MiniTree/Kruskal.cpp 03.Graph/05.MiniTree/Kruskal.h 03.Graph/05.MiniTree/main.cpp)
+add_executable(3-5MiniTree 03.Graph/05.MiniTree/Kruskal.cpp 03.Graph/05.MiniTree/Kruskal.h 03.Graph/05.MiniTree/main.cpp 03.Graph/01.MatrixGraph/matrixGraph.cpp 03.Graph/01.MatrixGraph/matrixGraph.h
+        03.Graph/05.MiniTree/Prim.cpp 03.Graph/05.MiniTree/Prim.h)
+# Dijkstra
+add_executable(3-6ShortPath 03.Graph/06.ShortPath/DijkstraShortPath.cpp 03.Graph/06.ShortPath/DijkstraShortPath.h 03.Graph/06.ShortPath/main.cpp 03.Graph/01.MatrixGraph/matrixGraph.cpp 03.Graph/01.MatrixGraph/matrixGraph.h)

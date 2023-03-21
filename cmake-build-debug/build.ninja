@@ -619,6 +619,18 @@ build CMakeFiles/3-5MiniTree.dir/03.Graph/05.MiniTree/main.cpp.obj: CXX_COMPILER
   OBJECT_DIR = CMakeFiles\3-5MiniTree.dir
   OBJECT_FILE_DIR = CMakeFiles\3-5MiniTree.dir\03.Graph\05.MiniTree
 
+build CMakeFiles/3-5MiniTree.dir/03.Graph/01.MatrixGraph/matrixGraph.cpp.obj: CXX_COMPILER__3-5MiniTree_Debug C$:/Users/25328/Desktop/DataStructure/03.Graph/01.MatrixGraph/matrixGraph.cpp || cmake_object_order_depends_target_3-5MiniTree
+  DEP_FILE = CMakeFiles\3-5MiniTree.dir\03.Graph\01.MatrixGraph\matrixGraph.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3-5MiniTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\3-5MiniTree.dir\03.Graph\01.MatrixGraph
+
+build CMakeFiles/3-5MiniTree.dir/03.Graph/05.MiniTree/Prim.cpp.obj: CXX_COMPILER__3-5MiniTree_Debug C$:/Users/25328/Desktop/DataStructure/03.Graph/05.MiniTree/Prim.cpp || cmake_object_order_depends_target_3-5MiniTree
+  DEP_FILE = CMakeFiles\3-5MiniTree.dir\03.Graph\05.MiniTree\Prim.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3-5MiniTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\3-5MiniTree.dir\03.Graph\05.MiniTree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 3-5MiniTree
@@ -627,7 +639,7 @@ build CMakeFiles/3-5MiniTree.dir/03.Graph/05.MiniTree/main.cpp.obj: CXX_COMPILER
 #############################################
 # Link the executable 3-5MiniTree.exe
 
-build 3-5MiniTree.exe: CXX_EXECUTABLE_LINKER__3-5MiniTree_Debug CMakeFiles/3-5MiniTree.dir/03.Graph/05.MiniTree/Kruskal.cpp.obj CMakeFiles/3-5MiniTree.dir/03.Graph/05.MiniTree/main.cpp.obj
+build 3-5MiniTree.exe: CXX_EXECUTABLE_LINKER__3-5MiniTree_Debug CMakeFiles/3-5MiniTree.dir/03.Graph/05.MiniTree/Kruskal.cpp.obj CMakeFiles/3-5MiniTree.dir/03.Graph/05.MiniTree/main.cpp.obj CMakeFiles/3-5MiniTree.dir/03.Graph/01.MatrixGraph/matrixGraph.cpp.obj CMakeFiles/3-5MiniTree.dir/03.Graph/05.MiniTree/Prim.cpp.obj
   FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\3-5MiniTree.dir
@@ -636,6 +648,51 @@ build 3-5MiniTree.exe: CXX_EXECUTABLE_LINKER__3-5MiniTree_Debug CMakeFiles/3-5Mi
   TARGET_FILE = 3-5MiniTree.exe
   TARGET_IMPLIB = lib3-5MiniTree.dll.a
   TARGET_PDB = 3-5MiniTree.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3-6ShortPath
+
+
+#############################################
+# Order-only phony target for 3-6ShortPath
+
+build cmake_object_order_depends_target_3-6ShortPath: phony || CMakeFiles/3-6ShortPath.dir
+
+build CMakeFiles/3-6ShortPath.dir/03.Graph/06.ShortPath/DijkstraShortPath.cpp.obj: CXX_COMPILER__3-6ShortPath_Debug C$:/Users/25328/Desktop/DataStructure/03.Graph/06.ShortPath/DijkstraShortPath.cpp || cmake_object_order_depends_target_3-6ShortPath
+  DEP_FILE = CMakeFiles\3-6ShortPath.dir\03.Graph\06.ShortPath\DijkstraShortPath.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3-6ShortPath.dir
+  OBJECT_FILE_DIR = CMakeFiles\3-6ShortPath.dir\03.Graph\06.ShortPath
+
+build CMakeFiles/3-6ShortPath.dir/03.Graph/06.ShortPath/main.cpp.obj: CXX_COMPILER__3-6ShortPath_Debug C$:/Users/25328/Desktop/DataStructure/03.Graph/06.ShortPath/main.cpp || cmake_object_order_depends_target_3-6ShortPath
+  DEP_FILE = CMakeFiles\3-6ShortPath.dir\03.Graph\06.ShortPath\main.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3-6ShortPath.dir
+  OBJECT_FILE_DIR = CMakeFiles\3-6ShortPath.dir\03.Graph\06.ShortPath
+
+build CMakeFiles/3-6ShortPath.dir/03.Graph/01.MatrixGraph/matrixGraph.cpp.obj: CXX_COMPILER__3-6ShortPath_Debug C$:/Users/25328/Desktop/DataStructure/03.Graph/01.MatrixGraph/matrixGraph.cpp || cmake_object_order_depends_target_3-6ShortPath
+  DEP_FILE = CMakeFiles\3-6ShortPath.dir\03.Graph\01.MatrixGraph\matrixGraph.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3-6ShortPath.dir
+  OBJECT_FILE_DIR = CMakeFiles\3-6ShortPath.dir\03.Graph\01.MatrixGraph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3-6ShortPath
+
+
+#############################################
+# Link the executable 3-6ShortPath.exe
+
+build 3-6ShortPath.exe: CXX_EXECUTABLE_LINKER__3-6ShortPath_Debug CMakeFiles/3-6ShortPath.dir/03.Graph/06.ShortPath/DijkstraShortPath.cpp.obj CMakeFiles/3-6ShortPath.dir/03.Graph/06.ShortPath/main.cpp.obj CMakeFiles/3-6ShortPath.dir/03.Graph/01.MatrixGraph/matrixGraph.cpp.obj
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3-6ShortPath.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3-6ShortPath.exe
+  TARGET_IMPLIB = lib3-6ShortPath.dll.a
+  TARGET_PDB = 3-6ShortPath.exe.dbg
 
 
 #############################################
@@ -693,6 +750,8 @@ build 3-4AdjacencyMultiList: phony 3-4AdjacencyMultiList.exe
 
 build 3-5MiniTree: phony 3-5MiniTree.exe
 
+build 3-6ShortPath: phony 3-6ShortPath.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -701,7 +760,7 @@ build 3-5MiniTree: phony 3-5MiniTree.exe
 #############################################
 # Folder: C:/Users/25328/Desktop/DataStructure/cmake-build-debug
 
-build all: phony 1-1seqList.exe 1-2linkList.exe 1-3stack.exe 1-4queue.exe 2-1binaryTree.exe 2-2threadTree.exe 2-3binarySearchTree.exe 2-4avlTree.exe 2-5unionFindSet.exe 2-6HuffmanTree.exe 3-1MatrixGraph.exe 3-2AdjacentGraph.exe 3-3CrossLinkGraph.exe 3-4AdjacencyMultiList.exe 3-5MiniTree.exe
+build all: phony 1-1seqList.exe 1-2linkList.exe 1-3stack.exe 1-4queue.exe 2-1binaryTree.exe 2-2threadTree.exe 2-3binarySearchTree.exe 2-4avlTree.exe 2-5unionFindSet.exe 2-6HuffmanTree.exe 3-1MatrixGraph.exe 3-2AdjacentGraph.exe 3-3CrossLinkGraph.exe 3-4AdjacencyMultiList.exe 3-5MiniTree.exe 3-6ShortPath.exe
 
 # =============================================================================
 # Built-in targets
