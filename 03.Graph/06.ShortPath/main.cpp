@@ -30,7 +30,7 @@ int test01() {
     path = new int[graph.nodeNum];
     DijkstraMGraph(&graph,0,dist,path);
     printf("0节点到6节点：%d\n",dist[6]);
-    showShortPath(path, graph.nodeNum, 6);
+    showShortPath(path, 6);
     delete[] dist;
     delete[] path;
     return 0;

@@ -11,5 +11,5 @@
  * */
 void DijkstraMGraph(const MGraph *graph, int start, int dist[], int path[]);
 
-void showShortPath(const int path[], int num, int pos);
+void showShortPath(const int path[], int pos);
 #endif //DATASTRUCTURE_DIJKSTRASHORTPATH_H

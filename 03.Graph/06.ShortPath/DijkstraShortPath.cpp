@@ -55,7 +55,7 @@ void DijkstraMGraph(const MGraph *graph, int start, int *dist, int *path) {
 
 // 定义栈来倒着打印
 // pos编号的顶点找上一个顶点，每找到就压栈，最后弹出
-void showShortPath(const int *path, int num, int pos) {
+void showShortPath(const int *path, int pos) {
     std::stack<int> stack;
     // 不断把父节点压栈，直到发现-1
     while (path[pos] != -1)

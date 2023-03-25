@@ -45,3 +45,7 @@ add_executable(3-5MiniTree 03.Graph/05.MiniTree/Kruskal.cpp 03.Graph/05.MiniTree
         03.Graph/05.MiniTree/Prim.cpp 03.Graph/05.MiniTree/Prim.h)
 # Dijkstra
 add_executable(3-6ShortPath 03.Graph/06.ShortPath/DijkstraShortPath.cpp 03.Graph/06.ShortPath/DijkstraShortPath.h 03.Graph/06.ShortPath/main.cpp 03.Graph/01.MatrixGraph/matrixGraph.cpp 03.Graph/01.MatrixGraph/matrixGraph.h)
+
+#拓扑排序
+add_executable(3-7TopoSort 03.Graph/07.TopologicalSort/topologicalSort.cpp 03.Graph/07.TopologicalSort/topologicalSort.h 03.Graph/07.TopologicalSort/main.cpp
+        03.Graph/02.AdjacentGraph/adjacentGraph.cpp 03.Graph/02.AdjacentGraph/adjacentGraph.h)
