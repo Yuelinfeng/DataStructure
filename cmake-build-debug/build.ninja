@@ -739,6 +739,39 @@ build 3-7TopoSort.exe: CXX_EXECUTABLE_LINKER__3-7TopoSort_Debug CMakeFiles/3-7To
   TARGET_IMPLIB = lib3-7TopoSort.dll.a
   TARGET_PDB = 3-7TopoSort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 4-1InsertSort
+
+
+#############################################
+# Order-only phony target for 4-1InsertSort
+
+build cmake_object_order_depends_target_4-1InsertSort: phony || CMakeFiles/4-1InsertSort.dir
+
+build CMakeFiles/4-1InsertSort.dir/04.Sort/01.InsertSort/sortHelper.cpp.obj: CXX_COMPILER__4-1InsertSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/01.InsertSort/sortHelper.cpp || cmake_object_order_depends_target_4-1InsertSort
+  DEP_FILE = CMakeFiles\4-1InsertSort.dir\04.Sort\01.InsertSort\sortHelper.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\4-1InsertSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\4-1InsertSort.dir\04.Sort\01.InsertSort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4-1InsertSort
+
+
+#############################################
+# Link the executable 4-1InsertSort.exe
+
+build 4-1InsertSort.exe: CXX_EXECUTABLE_LINKER__4-1InsertSort_Debug CMakeFiles/4-1InsertSort.dir/04.Sort/01.InsertSort/sortHelper.cpp.obj
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\4-1InsertSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 4-1InsertSort.exe
+  TARGET_IMPLIB = lib4-1InsertSort.dll.a
+  TARGET_PDB = 4-1InsertSort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -799,6 +832,8 @@ build 3-6ShortPath: phony 3-6ShortPath.exe
 
 build 3-7TopoSort: phony 3-7TopoSort.exe
 
+build 4-1InsertSort: phony 4-1InsertSort.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -807,7 +842,7 @@ build 3-7TopoSort: phony 3-7TopoSort.exe
 #############################################
 # Folder: C:/Users/25328/Desktop/DataStructure/cmake-build-debug
 
-build all: phony 1-1seqList.exe 1-2linkList.exe 1-3stack.exe 1-4queue.exe 2-1binaryTree.exe 2-2threadTree.exe 2-3binarySearchTree.exe 2-4avlTree.exe 2-5unionFindSet.exe 2-6HuffmanTree.exe 3-1MatrixGraph.exe 3-2AdjacentGraph.exe 3-3CrossLinkGraph.exe 3-4AdjacencyMultiList.exe 3-5MiniTree.exe 3-6ShortPath.exe 3-7TopoSort.exe
+build all: phony 1-1seqList.exe 1-2linkList.exe 1-3stack.exe 1-4queue.exe 2-1binaryTree.exe 2-2threadTree.exe 2-3binarySearchTree.exe 2-4avlTree.exe 2-5unionFindSet.exe 2-6HuffmanTree.exe 3-1MatrixGraph.exe 3-2AdjacentGraph.exe 3-3CrossLinkGraph.exe 3-4AdjacencyMultiList.exe 3-5MiniTree.exe 3-6ShortPath.exe 3-7TopoSort.exe 4-1InsertSort.exe
 
 # =============================================================================
 # Built-in targets

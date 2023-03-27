@@ -49,3 +49,6 @@ add_executable(3-6ShortPath 03.Graph/06.ShortPath/DijkstraShortPath.cpp 03.Graph
 #拓扑排序
 add_executable(3-7TopoSort 03.Graph/07.TopologicalSort/topologicalSort.cpp 03.Graph/07.TopologicalSort/topologicalSort.h 03.Graph/07.TopologicalSort/main.cpp
         03.Graph/02.AdjacentGraph/adjacentGraph.cpp 03.Graph/02.AdjacentGraph/adjacentGraph.h)
+
+#插排
+add_executable(4-1InsertSort 04.Sort/01.InsertSort/sortHelper.cpp 04.Sort/01.InsertSort/sortHelper.h)
