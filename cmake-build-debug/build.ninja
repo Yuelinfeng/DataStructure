@@ -739,51 +739,6 @@ build 3-7TopoSort.exe: CXX_EXECUTABLE_LINKER__3-7TopoSort_Debug CMakeFiles/3-7To
   TARGET_IMPLIB = lib3-7TopoSort.dll.a
   TARGET_PDB = 3-7TopoSort.exe.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target 4-1InsertSort
-
-
-#############################################
-# Order-only phony target for 4-1InsertSort
-
-build cmake_object_order_depends_target_4-1InsertSort: phony || CMakeFiles/4-1InsertSort.dir
-
-build CMakeFiles/4-1InsertSort.dir/04.Sort/sortHelper.cpp.obj: CXX_COMPILER__4-1InsertSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/sortHelper.cpp || cmake_object_order_depends_target_4-1InsertSort
-  DEP_FILE = CMakeFiles\4-1InsertSort.dir\04.Sort\sortHelper.cpp.obj.d
-  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\4-1InsertSort.dir
-  OBJECT_FILE_DIR = CMakeFiles\4-1InsertSort.dir\04.Sort
-
-build CMakeFiles/4-1InsertSort.dir/04.Sort/01.InsertSort/insertSort.cpp.obj: CXX_COMPILER__4-1InsertSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/01.InsertSort/insertSort.cpp || cmake_object_order_depends_target_4-1InsertSort
-  DEP_FILE = CMakeFiles\4-1InsertSort.dir\04.Sort\01.InsertSort\insertSort.cpp.obj.d
-  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\4-1InsertSort.dir
-  OBJECT_FILE_DIR = CMakeFiles\4-1InsertSort.dir\04.Sort\01.InsertSort
-
-build CMakeFiles/4-1InsertSort.dir/04.Sort/01.InsertSort/main.cpp.obj: CXX_COMPILER__4-1InsertSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/01.InsertSort/main.cpp || cmake_object_order_depends_target_4-1InsertSort
-  DEP_FILE = CMakeFiles\4-1InsertSort.dir\04.Sort\01.InsertSort\main.cpp.obj.d
-  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\4-1InsertSort.dir
-  OBJECT_FILE_DIR = CMakeFiles\4-1InsertSort.dir\04.Sort\01.InsertSort
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 4-1InsertSort
-
-
-#############################################
-# Link the executable 4-1InsertSort.exe
-
-build 4-1InsertSort.exe: CXX_EXECUTABLE_LINKER__4-1InsertSort_Debug CMakeFiles/4-1InsertSort.dir/04.Sort/sortHelper.cpp.obj CMakeFiles/4-1InsertSort.dir/04.Sort/01.InsertSort/insertSort.cpp.obj CMakeFiles/4-1InsertSort.dir/04.Sort/01.InsertSort/main.cpp.obj
-  FLAGS = -std=c++11 -fexec-charset=GBK -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\4-1InsertSort.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 4-1InsertSort.exe
-  TARGET_IMPLIB = lib4-1InsertSort.dll.a
-  TARGET_PDB = 4-1InsertSort.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -806,6 +761,130 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/25328/Desktop/DataStructure/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 4-1InsertSort
+
+
+#############################################
+# Order-only phony target for 4-1InsertSort
+
+build cmake_object_order_depends_target_4-1InsertSort: phony || 04.Sort/CMakeFiles/4-1InsertSort.dir
+
+build 04.Sort/CMakeFiles/4-1InsertSort.dir/sortHelper.cpp.obj: CXX_COMPILER__4-1InsertSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/sortHelper.cpp || cmake_object_order_depends_target_4-1InsertSort
+  DEP_FILE = 04.Sort\CMakeFiles\4-1InsertSort.dir\sortHelper.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = 04.Sort\CMakeFiles\4-1InsertSort.dir
+  OBJECT_FILE_DIR = 04.Sort\CMakeFiles\4-1InsertSort.dir
+
+build 04.Sort/CMakeFiles/4-1InsertSort.dir/01.InsertSort/insertSort.cpp.obj: CXX_COMPILER__4-1InsertSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/01.InsertSort/insertSort.cpp || cmake_object_order_depends_target_4-1InsertSort
+  DEP_FILE = 04.Sort\CMakeFiles\4-1InsertSort.dir\01.InsertSort\insertSort.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = 04.Sort\CMakeFiles\4-1InsertSort.dir
+  OBJECT_FILE_DIR = 04.Sort\CMakeFiles\4-1InsertSort.dir\01.InsertSort
+
+build 04.Sort/CMakeFiles/4-1InsertSort.dir/01.InsertSort/main.cpp.obj: CXX_COMPILER__4-1InsertSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/01.InsertSort/main.cpp || cmake_object_order_depends_target_4-1InsertSort
+  DEP_FILE = 04.Sort\CMakeFiles\4-1InsertSort.dir\01.InsertSort\main.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = 04.Sort\CMakeFiles\4-1InsertSort.dir
+  OBJECT_FILE_DIR = 04.Sort\CMakeFiles\4-1InsertSort.dir\01.InsertSort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4-1InsertSort
+
+
+#############################################
+# Link the executable 04.Sort\4-1InsertSort.exe
+
+build 04.Sort/4-1InsertSort.exe: CXX_EXECUTABLE_LINKER__4-1InsertSort_Debug 04.Sort/CMakeFiles/4-1InsertSort.dir/sortHelper.cpp.obj 04.Sort/CMakeFiles/4-1InsertSort.dir/01.InsertSort/insertSort.cpp.obj 04.Sort/CMakeFiles/4-1InsertSort.dir/01.InsertSort/main.cpp.obj
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 04.Sort\CMakeFiles\4-1InsertSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04.Sort\4-1InsertSort.exe
+  TARGET_IMPLIB = 04.Sort\lib4-1InsertSort.dll.a
+  TARGET_PDB = 4-1InsertSort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 4-2SwapSort
+
+
+#############################################
+# Order-only phony target for 4-2SwapSort
+
+build cmake_object_order_depends_target_4-2SwapSort: phony || 04.Sort/CMakeFiles/4-2SwapSort.dir
+
+build 04.Sort/CMakeFiles/4-2SwapSort.dir/sortHelper.cpp.obj: CXX_COMPILER__4-2SwapSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/sortHelper.cpp || cmake_object_order_depends_target_4-2SwapSort
+  DEP_FILE = 04.Sort\CMakeFiles\4-2SwapSort.dir\sortHelper.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = 04.Sort\CMakeFiles\4-2SwapSort.dir
+  OBJECT_FILE_DIR = 04.Sort\CMakeFiles\4-2SwapSort.dir
+
+build 04.Sort/CMakeFiles/4-2SwapSort.dir/02.SwapSort/bubbleSort.cpp.obj: CXX_COMPILER__4-2SwapSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/02.SwapSort/bubbleSort.cpp || cmake_object_order_depends_target_4-2SwapSort
+  DEP_FILE = 04.Sort\CMakeFiles\4-2SwapSort.dir\02.SwapSort\bubbleSort.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = 04.Sort\CMakeFiles\4-2SwapSort.dir
+  OBJECT_FILE_DIR = 04.Sort\CMakeFiles\4-2SwapSort.dir\02.SwapSort
+
+build 04.Sort/CMakeFiles/4-2SwapSort.dir/02.SwapSort/main.cpp.obj: CXX_COMPILER__4-2SwapSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/02.SwapSort/main.cpp || cmake_object_order_depends_target_4-2SwapSort
+  DEP_FILE = 04.Sort\CMakeFiles\4-2SwapSort.dir\02.SwapSort\main.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = 04.Sort\CMakeFiles\4-2SwapSort.dir
+  OBJECT_FILE_DIR = 04.Sort\CMakeFiles\4-2SwapSort.dir\02.SwapSort
+
+build 04.Sort/CMakeFiles/4-2SwapSort.dir/02.SwapSort/quickSort.cpp.obj: CXX_COMPILER__4-2SwapSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/02.SwapSort/quickSort.cpp || cmake_object_order_depends_target_4-2SwapSort
+  DEP_FILE = 04.Sort\CMakeFiles\4-2SwapSort.dir\02.SwapSort\quickSort.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = 04.Sort\CMakeFiles\4-2SwapSort.dir
+  OBJECT_FILE_DIR = 04.Sort\CMakeFiles\4-2SwapSort.dir\02.SwapSort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4-2SwapSort
+
+
+#############################################
+# Link the executable 04.Sort\4-2SwapSort.exe
+
+build 04.Sort/4-2SwapSort.exe: CXX_EXECUTABLE_LINKER__4-2SwapSort_Debug 04.Sort/CMakeFiles/4-2SwapSort.dir/sortHelper.cpp.obj 04.Sort/CMakeFiles/4-2SwapSort.dir/02.SwapSort/bubbleSort.cpp.obj 04.Sort/CMakeFiles/4-2SwapSort.dir/02.SwapSort/main.cpp.obj 04.Sort/CMakeFiles/4-2SwapSort.dir/02.SwapSort/quickSort.cpp.obj
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 04.Sort\CMakeFiles\4-2SwapSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04.Sort\4-2SwapSort.exe
+  TARGET_IMPLIB = 04.Sort\lib4-2SwapSort.dll.a
+  TARGET_PDB = 4-2SwapSort.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 04.Sort/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\25328\Desktop\DataStructure\cmake-build-debug\04.Sort && "D:\develop\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 04.Sort/edit_cache: phony 04.Sort/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 04.Sort/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\25328\Desktop\DataStructure\cmake-build-debug\04.Sort && "D:\develop\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\25328\Desktop\DataStructure -BC:\Users\25328\Desktop\DataStructure\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 04.Sort/rebuild_cache: phony 04.Sort/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
@@ -844,7 +923,13 @@ build 3-6ShortPath: phony 3-6ShortPath.exe
 
 build 3-7TopoSort: phony 3-7TopoSort.exe
 
-build 4-1InsertSort: phony 4-1InsertSort.exe
+build 4-1InsertSort: phony 04.Sort/4-1InsertSort.exe
+
+build 4-1InsertSort.exe: phony 04.Sort/4-1InsertSort.exe
+
+build 4-2SwapSort: phony 04.Sort/4-2SwapSort.exe
+
+build 4-2SwapSort.exe: phony 04.Sort/4-2SwapSort.exe
 
 # =============================================================================
 # Folder targets.
@@ -854,7 +939,14 @@ build 4-1InsertSort: phony 4-1InsertSort.exe
 #############################################
 # Folder: C:/Users/25328/Desktop/DataStructure/cmake-build-debug
 
-build all: phony 1-1seqList.exe 1-2linkList.exe 1-3stack.exe 1-4queue.exe 2-1binaryTree.exe 2-2threadTree.exe 2-3binarySearchTree.exe 2-4avlTree.exe 2-5unionFindSet.exe 2-6HuffmanTree.exe 3-1MatrixGraph.exe 3-2AdjacentGraph.exe 3-3CrossLinkGraph.exe 3-4AdjacencyMultiList.exe 3-5MiniTree.exe 3-6ShortPath.exe 3-7TopoSort.exe 4-1InsertSort.exe
+build all: phony 1-1seqList.exe 1-2linkList.exe 1-3stack.exe 1-4queue.exe 2-1binaryTree.exe 2-2threadTree.exe 2-3binarySearchTree.exe 2-4avlTree.exe 2-5unionFindSet.exe 2-6HuffmanTree.exe 3-1MatrixGraph.exe 3-2AdjacentGraph.exe 3-3CrossLinkGraph.exe 3-4AdjacencyMultiList.exe 3-5MiniTree.exe 3-6ShortPath.exe 3-7TopoSort.exe 04.Sort/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/25328/Desktop/DataStructure/cmake-build-debug/04.Sort
+
+build 04.Sort/all: phony 04.Sort/4-1InsertSort.exe 04.Sort/4-2SwapSort.exe
 
 # =============================================================================
 # Built-in targets
@@ -863,14 +955,14 @@ build all: phony 1-1seqList.exe 1-2linkList.exe 1-3stack.exe 1-4queue.exe 2-1bin
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/25328/Desktop/DataStructure/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeRCInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/25328/Desktop/DataStructure/04.Sort/CMakeLists.txt C$:/Users/25328/Desktop/DataStructure/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeRCInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/25328/Desktop/DataStructure/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeRCInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake: phony
+build C$:/Users/25328/Desktop/DataStructure/04.Sort/CMakeLists.txt C$:/Users/25328/Desktop/DataStructure/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeRCInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

@@ -51,4 +51,7 @@ add_executable(3-7TopoSort 03.Graph/07.TopologicalSort/topologicalSort.cpp 03.Gr
         03.Graph/02.AdjacentGraph/adjacentGraph.cpp 03.Graph/02.AdjacentGraph/adjacentGraph.h)
 
 #插排
-add_executable(4-1InsertSort 04.Sort/sortHelper.cpp 04.Sort/sortHelper.h 04.Sort/01.InsertSort/insertSort.cpp 04.Sort/01.InsertSort/insertSort.h 04.Sort/01.InsertSort/main.cpp)
+#add_executable(4-1InsertSort 04.Sort/sortHelper.cpp 04.Sort/sortHelper.h 04.Sort/01.InsertSort/insertSort.cpp 04.Sort/01.InsertSort/insertSort.h 04.Sort/01.InsertSort/main.cpp)
+
+#排序相关算法
+add_subdirectory(04.Sort)
