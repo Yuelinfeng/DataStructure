@@ -748,8 +748,20 @@ build 3-7TopoSort.exe: CXX_EXECUTABLE_LINKER__3-7TopoSort_Debug CMakeFiles/3-7To
 
 build cmake_object_order_depends_target_4-1InsertSort: phony || CMakeFiles/4-1InsertSort.dir
 
-build CMakeFiles/4-1InsertSort.dir/04.Sort/01.InsertSort/sortHelper.cpp.obj: CXX_COMPILER__4-1InsertSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/01.InsertSort/sortHelper.cpp || cmake_object_order_depends_target_4-1InsertSort
-  DEP_FILE = CMakeFiles\4-1InsertSort.dir\04.Sort\01.InsertSort\sortHelper.cpp.obj.d
+build CMakeFiles/4-1InsertSort.dir/04.Sort/sortHelper.cpp.obj: CXX_COMPILER__4-1InsertSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/sortHelper.cpp || cmake_object_order_depends_target_4-1InsertSort
+  DEP_FILE = CMakeFiles\4-1InsertSort.dir\04.Sort\sortHelper.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\4-1InsertSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\4-1InsertSort.dir\04.Sort
+
+build CMakeFiles/4-1InsertSort.dir/04.Sort/01.InsertSort/insertSort.cpp.obj: CXX_COMPILER__4-1InsertSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/01.InsertSort/insertSort.cpp || cmake_object_order_depends_target_4-1InsertSort
+  DEP_FILE = CMakeFiles\4-1InsertSort.dir\04.Sort\01.InsertSort\insertSort.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\4-1InsertSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\4-1InsertSort.dir\04.Sort\01.InsertSort
+
+build CMakeFiles/4-1InsertSort.dir/04.Sort/01.InsertSort/main.cpp.obj: CXX_COMPILER__4-1InsertSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/01.InsertSort/main.cpp || cmake_object_order_depends_target_4-1InsertSort
+  DEP_FILE = CMakeFiles\4-1InsertSort.dir\04.Sort\01.InsertSort\main.cpp.obj.d
   FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\4-1InsertSort.dir
   OBJECT_FILE_DIR = CMakeFiles\4-1InsertSort.dir\04.Sort\01.InsertSort
@@ -762,7 +774,7 @@ build CMakeFiles/4-1InsertSort.dir/04.Sort/01.InsertSort/sortHelper.cpp.obj: CXX
 #############################################
 # Link the executable 4-1InsertSort.exe
 
-build 4-1InsertSort.exe: CXX_EXECUTABLE_LINKER__4-1InsertSort_Debug CMakeFiles/4-1InsertSort.dir/04.Sort/01.InsertSort/sortHelper.cpp.obj
+build 4-1InsertSort.exe: CXX_EXECUTABLE_LINKER__4-1InsertSort_Debug CMakeFiles/4-1InsertSort.dir/04.Sort/sortHelper.cpp.obj CMakeFiles/4-1InsertSort.dir/04.Sort/01.InsertSort/insertSort.cpp.obj CMakeFiles/4-1InsertSort.dir/04.Sort/01.InsertSort/main.cpp.obj
   FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\4-1InsertSort.dir
