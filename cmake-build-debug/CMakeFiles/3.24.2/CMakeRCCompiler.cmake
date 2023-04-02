@@ -1,4 +1,4 @@
-set(CMAKE_RC_COMPILER "D:/develop/Compiler/mingw64/bin/windres.exe")
+set(CMAKE_RC_COMPILER "D:/develop/Qt/Tools/mingw1120_64/bin/windres.exe")
 set(CMAKE_RC_COMPILER_ARG1 "")
 set(CMAKE_RC_COMPILER_LOADED 1)
 set(CMAKE_RC_SOURCE_FILE_EXTENSIONS rc;RC)

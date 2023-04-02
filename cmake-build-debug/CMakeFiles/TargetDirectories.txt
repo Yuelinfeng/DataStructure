@@ -19,5 +19,7 @@ C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/04.Sort/CMakeFiles/4-1InsertSort.dir
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/04.Sort/CMakeFiles/4-2SwapSort.dir
+C:/Users/25328/Desktop/DataStructure/cmake-build-debug/04.Sort/CMakeFiles/4-3HeapSort.dir
+C:/Users/25328/Desktop/DataStructure/cmake-build-debug/04.Sort/CMakeFiles/4-4MergeSort.dir
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/04.Sort/CMakeFiles/edit_cache.dir
 C:/Users/25328/Desktop/DataStructure/cmake-build-debug/04.Sort/CMakeFiles/rebuild_cache.dir

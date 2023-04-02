@@ -863,6 +863,102 @@ build 04.Sort/4-2SwapSort.exe: CXX_EXECUTABLE_LINKER__4-2SwapSort_Debug 04.Sort/
   TARGET_IMPLIB = 04.Sort\lib4-2SwapSort.dll.a
   TARGET_PDB = 4-2SwapSort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 4-3HeapSort
+
+
+#############################################
+# Order-only phony target for 4-3HeapSort
+
+build cmake_object_order_depends_target_4-3HeapSort: phony || 04.Sort/CMakeFiles/4-3HeapSort.dir
+
+build 04.Sort/CMakeFiles/4-3HeapSort.dir/sortHelper.cpp.obj: CXX_COMPILER__4-3HeapSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/sortHelper.cpp || cmake_object_order_depends_target_4-3HeapSort
+  DEP_FILE = 04.Sort\CMakeFiles\4-3HeapSort.dir\sortHelper.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = 04.Sort\CMakeFiles\4-3HeapSort.dir
+  OBJECT_FILE_DIR = 04.Sort\CMakeFiles\4-3HeapSort.dir
+
+build 04.Sort/CMakeFiles/4-3HeapSort.dir/03.HeapSort/miniHeap.cpp.obj: CXX_COMPILER__4-3HeapSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/03.HeapSort/miniHeap.cpp || cmake_object_order_depends_target_4-3HeapSort
+  DEP_FILE = 04.Sort\CMakeFiles\4-3HeapSort.dir\03.HeapSort\miniHeap.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = 04.Sort\CMakeFiles\4-3HeapSort.dir
+  OBJECT_FILE_DIR = 04.Sort\CMakeFiles\4-3HeapSort.dir\03.HeapSort
+
+build 04.Sort/CMakeFiles/4-3HeapSort.dir/03.HeapSort/main.cpp.obj: CXX_COMPILER__4-3HeapSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/03.HeapSort/main.cpp || cmake_object_order_depends_target_4-3HeapSort
+  DEP_FILE = 04.Sort\CMakeFiles\4-3HeapSort.dir\03.HeapSort\main.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = 04.Sort\CMakeFiles\4-3HeapSort.dir
+  OBJECT_FILE_DIR = 04.Sort\CMakeFiles\4-3HeapSort.dir\03.HeapSort
+
+build 04.Sort/CMakeFiles/4-3HeapSort.dir/03.HeapSort/heapSort.cpp.obj: CXX_COMPILER__4-3HeapSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/03.HeapSort/heapSort.cpp || cmake_object_order_depends_target_4-3HeapSort
+  DEP_FILE = 04.Sort\CMakeFiles\4-3HeapSort.dir\03.HeapSort\heapSort.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = 04.Sort\CMakeFiles\4-3HeapSort.dir
+  OBJECT_FILE_DIR = 04.Sort\CMakeFiles\4-3HeapSort.dir\03.HeapSort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4-3HeapSort
+
+
+#############################################
+# Link the executable 04.Sort\4-3HeapSort.exe
+
+build 04.Sort/4-3HeapSort.exe: CXX_EXECUTABLE_LINKER__4-3HeapSort_Debug 04.Sort/CMakeFiles/4-3HeapSort.dir/sortHelper.cpp.obj 04.Sort/CMakeFiles/4-3HeapSort.dir/03.HeapSort/miniHeap.cpp.obj 04.Sort/CMakeFiles/4-3HeapSort.dir/03.HeapSort/main.cpp.obj 04.Sort/CMakeFiles/4-3HeapSort.dir/03.HeapSort/heapSort.cpp.obj
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 04.Sort\CMakeFiles\4-3HeapSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04.Sort\4-3HeapSort.exe
+  TARGET_IMPLIB = 04.Sort\lib4-3HeapSort.dll.a
+  TARGET_PDB = 4-3HeapSort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 4-4MergeSort
+
+
+#############################################
+# Order-only phony target for 4-4MergeSort
+
+build cmake_object_order_depends_target_4-4MergeSort: phony || 04.Sort/CMakeFiles/4-4MergeSort.dir
+
+build 04.Sort/CMakeFiles/4-4MergeSort.dir/sortHelper.cpp.obj: CXX_COMPILER__4-4MergeSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/sortHelper.cpp || cmake_object_order_depends_target_4-4MergeSort
+  DEP_FILE = 04.Sort\CMakeFiles\4-4MergeSort.dir\sortHelper.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = 04.Sort\CMakeFiles\4-4MergeSort.dir
+  OBJECT_FILE_DIR = 04.Sort\CMakeFiles\4-4MergeSort.dir
+
+build 04.Sort/CMakeFiles/4-4MergeSort.dir/04.MergeSort/mergeSort.cpp.obj: CXX_COMPILER__4-4MergeSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/04.MergeSort/mergeSort.cpp || cmake_object_order_depends_target_4-4MergeSort
+  DEP_FILE = 04.Sort\CMakeFiles\4-4MergeSort.dir\04.MergeSort\mergeSort.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = 04.Sort\CMakeFiles\4-4MergeSort.dir
+  OBJECT_FILE_DIR = 04.Sort\CMakeFiles\4-4MergeSort.dir\04.MergeSort
+
+build 04.Sort/CMakeFiles/4-4MergeSort.dir/04.MergeSort/main.cpp.obj: CXX_COMPILER__4-4MergeSort_Debug C$:/Users/25328/Desktop/DataStructure/04.Sort/04.MergeSort/main.cpp || cmake_object_order_depends_target_4-4MergeSort
+  DEP_FILE = 04.Sort\CMakeFiles\4-4MergeSort.dir\04.MergeSort\main.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = 04.Sort\CMakeFiles\4-4MergeSort.dir
+  OBJECT_FILE_DIR = 04.Sort\CMakeFiles\4-4MergeSort.dir\04.MergeSort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4-4MergeSort
+
+
+#############################################
+# Link the executable 04.Sort\4-4MergeSort.exe
+
+build 04.Sort/4-4MergeSort.exe: CXX_EXECUTABLE_LINKER__4-4MergeSort_Debug 04.Sort/CMakeFiles/4-4MergeSort.dir/sortHelper.cpp.obj 04.Sort/CMakeFiles/4-4MergeSort.dir/04.MergeSort/mergeSort.cpp.obj 04.Sort/CMakeFiles/4-4MergeSort.dir/04.MergeSort/main.cpp.obj
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 04.Sort\CMakeFiles\4-4MergeSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04.Sort\4-4MergeSort.exe
+  TARGET_IMPLIB = 04.Sort\lib4-4MergeSort.dll.a
+  TARGET_PDB = 4-4MergeSort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -931,6 +1027,14 @@ build 4-2SwapSort: phony 04.Sort/4-2SwapSort.exe
 
 build 4-2SwapSort.exe: phony 04.Sort/4-2SwapSort.exe
 
+build 4-3HeapSort: phony 04.Sort/4-3HeapSort.exe
+
+build 4-3HeapSort.exe: phony 04.Sort/4-3HeapSort.exe
+
+build 4-4MergeSort: phony 04.Sort/4-4MergeSort.exe
+
+build 4-4MergeSort.exe: phony 04.Sort/4-4MergeSort.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -946,7 +1050,7 @@ build all: phony 1-1seqList.exe 1-2linkList.exe 1-3stack.exe 1-4queue.exe 2-1bin
 #############################################
 # Folder: C:/Users/25328/Desktop/DataStructure/cmake-build-debug/04.Sort
 
-build 04.Sort/all: phony 04.Sort/4-1InsertSort.exe 04.Sort/4-2SwapSort.exe
+build 04.Sort/all: phony 04.Sort/4-1InsertSort.exe 04.Sort/4-2SwapSort.exe 04.Sort/4-3HeapSort.exe 04.Sort/4-4MergeSort.exe
 
 # =============================================================================
 # Built-in targets
