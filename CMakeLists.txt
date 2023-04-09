@@ -55,3 +55,8 @@ add_executable(3-7TopoSort 03.Graph/07.TopologicalSort/topologicalSort.cpp 03.Gr
 
 #排序相关算法
 add_subdirectory(04.Sort)
+
+#查找相关算法
+add_subdirectory(05.BaseFind)
+
+add_subdirectory(06.RBTree)
