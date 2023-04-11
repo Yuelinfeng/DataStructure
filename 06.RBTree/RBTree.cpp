@@ -217,3 +217,135 @@ void releaseRBTree(RBTree *tree, RBNode *node) {
     printf("last %d nodes",tree->count);
     delete tree;
 }
+static void deleteFixup(RBTree *tree, RBNode *x, RBNode *parent) {
+    RBNode *w;  // 兄弟节点
+    while (tree->root != x && (x==NULL || x->color == BLACK)) {
+        // 找兄弟节点
+        if (parent->left == x) {    //x是父节点的左孩子
+            w = parent->right;      // w是右孩子  R
+            if (w->color == RED) {
+                // 1. x的兄弟是红色
+                w->color = BLACK;
+                w->parent->color = RED;
+                leftRotate(tree, parent);
+                w = parent->right;
+            }
+            // 兄弟节点都是黑色
+            if ((!w->left || w->left->color == BLACK) &&
+                (!w->right || w->right->color == BLACK)) {
+                // 2. x的兄弟的两个孩子都是黑色
+                w->color = RED;
+                x = parent;
+                parent = x->parent;
+            } else {
+                if (!w->right || w->right->color == BLACK) {
+                    // 3. x的兄弟节点左孩子是红色，右孩子是黑色   RL
+                    w->left->color = BLACK;
+                    w->color = RED;
+                    rightRotate(tree,w);
+                    w = parent->right;
+                }
+                // RR  4.
+                w->color = parent->color;
+                parent->color = BLACK;
+                w->right->color = BLACK;
+                leftRotate(tree, parent);
+                x = tree->root;
+                break;
+            }
+        }else {
+            w = parent->left;
+            if (w->color == RED) {
+                w->color = BLACK;
+                parent->color = RED;
+                rightRotate(tree, parent);
+                w = parent->left;
+            }
+            if ((!w->left || w->left->color == BLACK) &&
+                    (!w->right || w->right->color == BLACK)) {
+                // 2.
+                w->color = RED;
+                x = parent;
+                parent = x->parent;
+            } else {
+                if (!w->left || w->left->color == BLACK) {
+                    // case 3
+                    w->right->color = BLACK;
+                    w->color = RED;
+                    leftRotate(tree, w);
+                    w = parent->left;
+                }
+                // case 4
+                w->color = parent->color;
+                parent->color = BLACK;
+                w->left->color = BLACK;
+                rightRotate(tree, parent);
+                break;
+            }
+        }
+    }
+    if (tree->root) {
+        tree->root->color = BLACK;
+    }
+}
+static void deleteRBNode(RBTree *tree, RBNode *node) {
+    RBNode *y;  //真正删除的节点地址
+    RBNode *x;  //替换节点
+    RBNode *parent;
+    if (node->left == NULL || node->right == NULL) {
+        y = node;
+    } else {    // 拥有左右子树的节点，需要寻找后继节点
+        y = node->right;
+        while (y->left) {
+            y = y->left;
+        }
+    }
+    // 真正删除的节点就找到了，然后开始寻找替换节点
+    if (y->left) {
+        x = y->left;
+    }else {
+        x = y->right;
+    }
+    parent = y->parent;
+    if(x) {
+        x->parent = parent;
+    }
+    if(y->parent == NULL) {
+        tree->root = x;
+    } else if(y->parent->left == y) {
+        y->parent->left = x;
+    } else {
+        y->parent->right = x;
+    }
+    //更新有左右孩子的根节点的值
+    if(y != node) {
+        node->key = y->key;
+    }
+    // 如果删除的节点是黑色，那么需要调整
+    if (y->color == BLACK) {
+        deleteFixup(tree, x, parent);
+    }
+    delete y;
+}
+
+void deleteRBTree(RBTree *tree, KeyType key) {
+    RBNode *node = searchRBNode(tree, key);
+    if (node) {
+        deleteRBNode(tree, node);
+        tree->count--;
+    }
+}
+
+RBNode *searchRBNode(RBTree *tree, KeyType key) {
+    RBNode *node = tree->root;
+    while (node) {
+        if (key < node->key) {
+            node = node->left;
+        }else if (key > node->key) {
+            node = node->right;
+        }else {
+            return node;
+        }
+    }
+    return nullptr;
+}

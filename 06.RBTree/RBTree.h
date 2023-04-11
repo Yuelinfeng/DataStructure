@@ -28,4 +28,8 @@ void insertRBNode(RBTree *tree, KeyType key);
 void releaseRBTree(RBTree *tree, RBNode *node);
 // 显示红黑树
 void printRBTree(RBNode *node, int key, int dir);
+// 查找红黑树的节点
+RBNode *searchRBNode(RBTree *tree, KeyType key);
+// 向红黑树删除一个节点
+void deleteRBTree(RBTree *tree, KeyType key);
 #endif //DATASTRUCTURE_RBTREE_H
