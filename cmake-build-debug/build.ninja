@@ -1111,6 +1111,67 @@ build 06.RBTree/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 06.RBTree/rebuild_cache: phony 06.RBTree/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/25328/Desktop/DataStructure/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 7-1DiskTree
+
+
+#############################################
+# Order-only phony target for 7-1DiskTree
+
+build cmake_object_order_depends_target_7-1DiskTree: phony || 07.DiskTree/CMakeFiles/7-1DiskTree.dir
+
+build 07.DiskTree/CMakeFiles/7-1DiskTree.dir/diskTree.cpp.obj: CXX_COMPILER__7-1DiskTree_Debug C$:/Users/25328/Desktop/DataStructure/07.DiskTree/diskTree.cpp || cmake_object_order_depends_target_7-1DiskTree
+  DEP_FILE = 07.DiskTree\CMakeFiles\7-1DiskTree.dir\diskTree.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = 07.DiskTree\CMakeFiles\7-1DiskTree.dir
+  OBJECT_FILE_DIR = 07.DiskTree\CMakeFiles\7-1DiskTree.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 7-1DiskTree
+
+
+#############################################
+# Link the executable 07.DiskTree\7-1DiskTree.exe
+
+build 07.DiskTree/7-1DiskTree.exe: CXX_EXECUTABLE_LINKER__7-1DiskTree_Debug 07.DiskTree/CMakeFiles/7-1DiskTree.dir/diskTree.cpp.obj
+  FLAGS = -std=c++11 -fexec-charset=GBK -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 07.DiskTree\CMakeFiles\7-1DiskTree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07.DiskTree\7-1DiskTree.exe
+  TARGET_IMPLIB = 07.DiskTree\lib7-1DiskTree.dll.a
+  TARGET_PDB = 7-1DiskTree.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 07.DiskTree/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\25328\Desktop\DataStructure\cmake-build-debug\07.DiskTree && "D:\develop\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 07.DiskTree/edit_cache: phony 07.DiskTree/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 07.DiskTree/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\25328\Desktop\DataStructure\cmake-build-debug\07.DiskTree && "D:\develop\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\25328\Desktop\DataStructure -BC:\Users\25328\Desktop\DataStructure\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 07.DiskTree/rebuild_cache: phony 07.DiskTree/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build 1-1seqList: phony 1-1seqList.exe
@@ -1171,6 +1232,10 @@ build 6-1RBTree: phony 06.RBTree/6-1RBTree.exe
 
 build 6-1RBTree.exe: phony 06.RBTree/6-1RBTree.exe
 
+build 7-1DiskTree: phony 07.DiskTree/7-1DiskTree.exe
+
+build 7-1DiskTree.exe: phony 07.DiskTree/7-1DiskTree.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -1179,7 +1244,7 @@ build 6-1RBTree.exe: phony 06.RBTree/6-1RBTree.exe
 #############################################
 # Folder: C:/Users/25328/Desktop/DataStructure/cmake-build-debug
 
-build all: phony 1-1seqList.exe 1-2linkList.exe 1-3stack.exe 1-4queue.exe 2-1binaryTree.exe 2-2threadTree.exe 2-3binarySearchTree.exe 2-4avlTree.exe 2-5unionFindSet.exe 2-6HuffmanTree.exe 3-1MatrixGraph.exe 3-2AdjacentGraph.exe 3-3CrossLinkGraph.exe 3-4AdjacencyMultiList.exe 3-5MiniTree.exe 3-6ShortPath.exe 3-7TopoSort.exe 04.Sort/all 05.BaseFind/all 06.RBTree/all
+build all: phony 1-1seqList.exe 1-2linkList.exe 1-3stack.exe 1-4queue.exe 2-1binaryTree.exe 2-2threadTree.exe 2-3binarySearchTree.exe 2-4avlTree.exe 2-5unionFindSet.exe 2-6HuffmanTree.exe 3-1MatrixGraph.exe 3-2AdjacentGraph.exe 3-3CrossLinkGraph.exe 3-4AdjacencyMultiList.exe 3-5MiniTree.exe 3-6ShortPath.exe 3-7TopoSort.exe 04.Sort/all 05.BaseFind/all 06.RBTree/all 07.DiskTree/all
 
 # =============================================================================
 
@@ -1203,20 +1268,27 @@ build 05.BaseFind/all: phony 05.BaseFind/5-1binarySearch.exe
 build 06.RBTree/all: phony 06.RBTree/6-1RBTree.exe
 
 # =============================================================================
+
+#############################################
+# Folder: C:/Users/25328/Desktop/DataStructure/cmake-build-debug/07.DiskTree
+
+build 07.DiskTree/all: phony 07.DiskTree/7-1DiskTree.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/25328/Desktop/DataStructure/04.Sort/CMakeLists.txt C$:/Users/25328/Desktop/DataStructure/05.BaseFind/CMakeLists.txt C$:/Users/25328/Desktop/DataStructure/06.RBTree/CMakeLists.txt C$:/Users/25328/Desktop/DataStructure/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeRCInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/25328/Desktop/DataStructure/04.Sort/CMakeLists.txt C$:/Users/25328/Desktop/DataStructure/05.BaseFind/CMakeLists.txt C$:/Users/25328/Desktop/DataStructure/06.RBTree/CMakeLists.txt C$:/Users/25328/Desktop/DataStructure/07.DiskTree/CMakeLists.txt C$:/Users/25328/Desktop/DataStructure/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeRCInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/25328/Desktop/DataStructure/04.Sort/CMakeLists.txt C$:/Users/25328/Desktop/DataStructure/05.BaseFind/CMakeLists.txt C$:/Users/25328/Desktop/DataStructure/06.RBTree/CMakeLists.txt C$:/Users/25328/Desktop/DataStructure/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeRCInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake: phony
+build C$:/Users/25328/Desktop/DataStructure/04.Sort/CMakeLists.txt C$:/Users/25328/Desktop/DataStructure/05.BaseFind/CMakeLists.txt C$:/Users/25328/Desktop/DataStructure/06.RBTree/CMakeLists.txt C$:/Users/25328/Desktop/DataStructure/07.DiskTree/CMakeLists.txt C$:/Users/25328/Desktop/DataStructure/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeRCInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows.cmake D$:/develop/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

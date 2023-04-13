@@ -52,6 +52,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/25328/Desktop/DataStructure/cmake-build-debug/06.RBTree/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/25328/Desktop/DataStructure/cmake-build-debug/07.DiskTree/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
