@@ -1130,6 +1130,12 @@ build 07.DiskTree/CMakeFiles/7-1DiskTree.dir/diskTree.cpp.obj: CXX_COMPILER__7-1
   OBJECT_DIR = 07.DiskTree\CMakeFiles\7-1DiskTree.dir
   OBJECT_FILE_DIR = 07.DiskTree\CMakeFiles\7-1DiskTree.dir
 
+build 07.DiskTree/CMakeFiles/7-1DiskTree.dir/main.cpp.obj: CXX_COMPILER__7-1DiskTree_Debug C$:/Users/25328/Desktop/DataStructure/07.DiskTree/main.cpp || cmake_object_order_depends_target_7-1DiskTree
+  DEP_FILE = 07.DiskTree\CMakeFiles\7-1DiskTree.dir\main.cpp.obj.d
+  FLAGS = -std=c++11 -fexec-charset=GBK -g -fdiagnostics-color=always
+  OBJECT_DIR = 07.DiskTree\CMakeFiles\7-1DiskTree.dir
+  OBJECT_FILE_DIR = 07.DiskTree\CMakeFiles\7-1DiskTree.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 7-1DiskTree
@@ -1138,7 +1144,7 @@ build 07.DiskTree/CMakeFiles/7-1DiskTree.dir/diskTree.cpp.obj: CXX_COMPILER__7-1
 #############################################
 # Link the executable 07.DiskTree\7-1DiskTree.exe
 
-build 07.DiskTree/7-1DiskTree.exe: CXX_EXECUTABLE_LINKER__7-1DiskTree_Debug 07.DiskTree/CMakeFiles/7-1DiskTree.dir/diskTree.cpp.obj
+build 07.DiskTree/7-1DiskTree.exe: CXX_EXECUTABLE_LINKER__7-1DiskTree_Debug 07.DiskTree/CMakeFiles/7-1DiskTree.dir/diskTree.cpp.obj 07.DiskTree/CMakeFiles/7-1DiskTree.dir/main.cpp.obj
   FLAGS = -std=c++11 -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = 07.DiskTree\CMakeFiles\7-1DiskTree.dir

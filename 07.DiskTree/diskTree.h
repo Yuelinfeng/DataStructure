@@ -22,4 +22,27 @@ typedef struct {
     int count;
 }DiskBTree;
 
+/* B树查找的结果集，包含查找成功和失败的信息
+ *  ptr : 查找成功，标记当前键值所在的节点地址
+ *          查找失败，标记待插入节点（NULL）的父节点
+ *  pos : 查找成功，标记键值所在节点的位序索引号
+ *          查找失败，标记待插入节点（NULL）的父节点位序号
+ *  tag : 1表示查找成功，0表示查找失败
+ * */
+typedef struct {
+    BTNode *ptr;
+    int pos;
+    int tag;
+}Result;
+
+// 初始化B树
+DiskBTree *createDiskTree();
+// 释放B树
+void releaseDiskBTree(DiskBTree *tree);
+// 插入节点
+void insertKey(DiskBTree *tree, KeyType key);
+// 查找B树中key的位置。分查找成功和失败，更新res
+void searchBTree(DiskBTree *tree, KeyType key, Result *res);
+// 打印
+void printBTree(const BTNode *node, int tab);
 #endif //DATASTRUCTURE_DISKTREE_H

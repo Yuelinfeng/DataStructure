@@ -1,1 +1,1 @@
-add_executable(7-1DiskTree diskTree.h diskTree.cpp)
+add_executable(7-1DiskTree diskTree.h diskTree.cpp main.cpp)
