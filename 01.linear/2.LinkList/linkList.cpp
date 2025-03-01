@@ -1,6 +1,8 @@
 #include <cstdio>
 #include "linkList.h"
 
+#include <wchar.h>
+
 LinkList *createLinkList() {
     LinkList *list;
     list = new LinkList;
@@ -79,8 +81,10 @@ void showLinkList(LinkList *linkList) {
         printf("%d\t",p->next->ele);
         p = p->next;
     }
+    printf("\n");
 }
 
+// 尾插法
 int insertLinkList(LinkList *linkList, Element e) {
     Node *p = &linkList->head;
     while (p->next) {
@@ -90,4 +94,50 @@ int insertLinkList(LinkList *linkList, Element e) {
     p->next->ele = e;
     linkList->len++;
     return 0;
+}
+
+// 头插法
+int insertLinkListHead(LinkList *linkList, Element e)
+{
+    Node *p = &linkList->head;
+    Node *tmp = new Node;
+    tmp->ele = e;
+    tmp->next = p->next;
+    p->next = tmp;
+    return 0;
+}
+
+// 链表反转
+void reverseLinkList(LinkList *linkList)
+{
+    /*方法一：原地反转*/
+    // 连 掉 接 姨
+    Node *head = &linkList->head;
+
+    Node *beg = linkList->head.next;
+    Node *end = beg->next;
+    while (end != nullptr)
+    {
+        beg->next = end->next;
+        end->next = head->next;
+        head->next = end;
+        end = beg->next;
+    }
+}
+
+// 头插法——链表反转
+void headReverse(LinkList *linkList)
+{
+    /*方法二：头插法*/
+    Node *head = &linkList->head;
+    Node *p = head->next;
+    Node *q = nullptr;
+    head->next = nullptr;
+    while (p)
+    {
+        q = p->next;
+        p->next = head->next;
+        head->next = p;
+        p = q;
+    }
 }

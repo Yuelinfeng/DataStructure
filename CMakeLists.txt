@@ -8,9 +8,10 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c99")
 
 
 
-IF(WIN32)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fexec-charset=GBK")
-ENDIF()
+#IF(WIN32)
+#    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fexec-charset=GBK")
+#ENDIF()
+
 # 动态线性表
 add_executable(1-1seqList 01.linear/1.seqList 01.linear/1.seqList/main.cpp 01.linear/1.seqList/SqList.cpp)
 # 链表

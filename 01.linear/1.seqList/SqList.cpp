@@ -6,8 +6,8 @@
 #include <iostream>
 using namespace std;
 SqList::SqList(int n)
-    : capacity(abs(n))
-    , len(0)
+    : len(0)
+    , capacity(abs(n))
 {
     elem = new Element[capacity]{};
 }
